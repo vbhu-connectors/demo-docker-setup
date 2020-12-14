@@ -1,0 +1,1791 @@
+2020-12-11 10:10:33 GMT [ISS.0025.0001I] Integration Server 10.5.0.0 Build 84 
+2020-12-11 10:10:33 GMT [ISS.0001.0002C] Integration Server License key expired or invalid. 
+2020-12-11 10:10:33 GMT [ISS.0001.0004C] Integration Server will shutdown in 30 minutes, unless a valid license key is provided. 
+2020-12-11 10:10:33 GMT [ISS.0025.0006I] License Manager started 
+2020-12-11 10:10:33 GMT [ISS.0001.0008W] Clustering Functionality disabled due to license restrictions. 
+2020-12-11 10:10:33 GMT [ISS.0001.0008W] Publish / Subscribe Functionality disabled due to license restrictions. 
+2020-12-11 10:10:33 GMT [ISS.0001.0008W] Adapter Runtime Functionality disabled due to license restrictions. 
+2020-12-11 10:10:33 GMT [ISS.0001.0008W] Remote Invoke Functionality disabled due to license restrictions. 
+2020-12-11 10:10:33 GMT [ISS.0001.0008W] Guaranteed Delivery Functionality disabled due to license restrictions. 
+2020-12-11 10:10:33 GMT [ISS.0001.0008W] Security Auditing Functionality disabled due to license restrictions. 
+2020-12-11 10:10:33 GMT [ISS.0001.0008W] Enterprise Gateway Functionality disabled due to license restrictions. 
+2020-12-11 10:10:33 GMT [ISS.0001.0008W] Distributed Cache Functionality disabled due to license restrictions. 
+2020-12-11 10:10:33 GMT [ISS.0001.0008W] Microservices Functionality disabled due to license restrictions. 
+2020-12-11 10:10:33 GMT [ISS.0025.0049I] The JCE Unlimited Strength Jurisdiction Policy File was found 
+2020-12-11 10:10:33 GMT [ISS.0025.0041I] FIPS mode not initialized 
+2020-12-11 10:10:38 GMT [ISS.0096.0002W] JDBCConnectionManager: creating Embedded Pool Alias for Xref. 
+2020-12-11 10:10:38 GMT [ISS.0096.0002W] JDBCConnectionManager: creating Embedded Pool Alias for ISInternal. 
+2020-12-11 10:10:38 GMT [ISS.0096.0003I] JDBCConnectionManager: creating database object for embedded database: IS_USER_TASKS.LAST_UPDATED 
+2020-12-11 10:10:39 GMT [ISS.0025.0024I] JDBC Connection Manager started 
+2020-12-11 10:10:39 GMT [ISS.0095.0026W] The AuditConfig.xml file was not found and is being created. The audit logging system is using default settings. 
+2020-12-11 10:10:39 GMT [ISS.0095.0025W] The auditing.cnf file was not found and is being created. 
+2020-12-11 10:10:39 GMT [ISS.0095.0025W] The transient.sql.errors.xml file was not found and is being created. 
+2020-12-11 10:10:41 GMT [ISS.0095.0013I] Audit Logging initialized. 
+2020-12-11 10:10:42 GMT [ISS.0033.0168I] Cluster Node Name: wmcs105.rndlab.ad.local. 
+2020-12-11 10:10:43 GMT [ISS.0025.0017I] Repository Manager started 
+2020-12-11 10:10:44 GMT [ISS.0025.0021I] ACL Manager started 
+2020-12-11 10:10:44 GMT [ISS.0025.0008I] State Manager started 
+2020-12-11 10:10:44 GMT [ISS.0025.0010I] Service Manager started 
+2020-12-11 10:10:44 GMT [ISS.0025.0020I] Validation Processor started 
+2020-12-11 10:10:44 GMT [ISS.0025.0022I] Statistics Processor started 
+2020-12-11 10:10:44 GMT [ISS.0025.0018I] Invoke Manager started 
+2020-12-11 10:10:44 GMT [ISS.0025.0012I] Cache Manager started 
+2020-12-11 10:10:45 GMT [ISS.0134.0128I] JMS subsystem is starting. 
+2020-12-11 10:10:45 GMT [ISS.0134.0010I] JMS subsystem is not configured. The default JMS connection alias is being created. 
+2020-12-11 10:10:45 GMT [ISS.0134.0998I] [STARTUP.UM_DETECTOR] no realm found in install directory: /opt/softwareag/UniversalMessaging/server 
+2020-12-11 10:10:45 GMT [ISS.0135.0003I] JNDIConfigurationManager added new JNDI Properties file "DEFAULT_IS_JNDI_PROVIDER" [{java.naming.factory.initial=com.pcbsys.nirvana.nSpace.NirvanaContextFactory, java.naming.provider.url=nsp://localhost:9000, is.jndiAlias.description=system generated JNDI provider alias}] 
+2020-12-11 10:10:45 GMT [ISS.0134.0998I] DEFAULT_IS_JMS_CONNECTION cache enabled :: true 
+2020-12-11 10:10:45 GMT [ISS.0134.0000I] JMS subsystem started 
+2020-12-11 10:10:45 GMT [ISS.0134.0998I] PE_NONTRANSACTIONAL_ALIAS cache enabled :: true 
+2020-12-11 10:10:45 GMT [ISS.0173.0000I] Common Messaging subsystem started 
+2020-12-11 10:10:46 GMT [SCC.0121.0093I] XA Recovery Store initialized 
+2020-12-11 10:10:46 GMT [com.webmethods.fabric.agent.FabricAgent.null.load.startI] Loading registry config file /opt/softwareag/IntegrationServer/bin/../config/fabric-agent.xml 
+2020-12-11 10:10:46 GMT [com.webmethods.fabric.agent.FabricAgent.null.startI] Starting Fabric Agent 
+2020-12-11 10:10:46 GMT [ISS.0025.0055I] Lock Manager initialized 
+2020-12-11 10:10:51 GMT [ISS.0158.0000I] OData Server module is initialized. 
+2020-12-11 10:10:51 GMT [ISS.0048.9999I] Successfully initialized module "odata-server" by com.softwareag.is.odata.core.Init 
+2020-12-11 10:10:51 GMT [ISS.0048.9999I] Successfully initialized module "websocket-server" by com.softwareag.is.websocket.server.Init 
+2020-12-11 10:10:51 GMT [ISS.0048.9999I] Successfully initialized module "graphql-server" by com.softwareag.is.graphql.Init 
+2020-12-11 10:10:51 GMT [ISS.0139.9999I] Initializing ISKeyStoreManager using watt.server.homeDir:/opt/softwareag/IntegrationServer/bin/../config/security/keystore 
+2020-12-11 10:10:51 GMT [ISS.0139.9999I] ISKeyStoreManager initialized successfully. 
+2020-12-11 10:10:51 GMT [ISS.0025.0004I] Flow Service Manager started 
+2020-12-11 10:10:51 GMT [ISS.0025.0002I] Package Manager started 
+2020-12-11 10:10:51 GMT [ISS.0025.0011I] Package Replicator Manager started 
+2020-12-11 10:10:51 GMT [ISS.0028.0001I] Loading packages 
+2020-12-11 10:10:54 GMT [ISS.0028.0005I] Loading WmRoot package 
+2020-12-11 10:10:59 GMT [ISS.0028.0005I] Loading WmPublic package 
+2020-12-11 10:10:59 GMT [ISS.0028.0005I] Loading WmISExtDC package 
+2020-12-11 10:10:59 GMT [ISS.0028.0005I] Loading WmAdmin package 
+2020-12-11 10:10:59 GMT [ISS.0028.0005I] Loading WmJSONAPI package 
+2020-12-11 10:10:59 GMT [ISS.0028.0005I] Loading WmConsul package 
+2020-12-11 10:10:59 GMT [ISS.0028.0005I] Loading WmXSLT package 
+2020-12-11 10:10:59 GMT [ISS.0028.0005I] Loading WmCloud package 
+2020-12-11 10:11:02 GMT [ISS.0028.0005I] Loading WmFlatFile package 
+2020-12-11 10:11:10 GMT [ISS.0028.0005I] Loading WmCloudStreams package 
+2020-12-11 10:11:11 GMT [ISS.0028.0005I] Loading WmART package 
+2020-12-11 10:11:11 GMT [ISS.0028.0005I] Loading WmARTExtDC package 
+2020-12-11 10:11:13 GMT [ISS.0028.0005I] Loading Default package 
+2020-12-11 10:11:15 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.event:startEventAgentPort) 
+2020-12-11 10:11:15 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.email:init) 
+2020-12-11 10:11:15 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftp:init) 
+2020-12-11 10:11:15 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftps:init) 
+2020-12-11 10:11:15 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.http:init) 
+2020-12-11 10:11:15 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.websocket:init) 
+2020-12-11 10:11:15 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ns:syncToNamespace) 
+2020-12-11 10:11:15 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.remote:init) 
+2020-12-11 10:11:16 GMT [ISP.0061.0009I] The default Remote Server Alias was created. 
+2020-12-11 10:11:16 GMT [ISS.0014.0044I] Cron Daemon Pool thread pool increased by 10 threads, current maximum is 15. 
+2020-12-11 10:11:16 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.registry:init) 
+2020-12-11 10:11:16 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.proxy:init) 
+2020-12-11 10:11:16 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.schedule:init) 
+2020-12-11 10:11:16 GMT [ISS.0137.0000I] [SCHED] IS 10.5, scheduler version: 2 
+2020-12-11 10:11:16 GMT [ISS.0137.0000I] [SCHED] checking DB level 
+2020-12-11 10:11:16 GMT [ISS.0137.0000I] [SCHED] level: v10.5 
+2020-12-11 10:11:16 GMT [ISS.0137.0000I] [SCHED] number: 10005000000 
+2020-12-11 10:11:16 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.dispatcher:init) 
+2020-12-11 10:11:16 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tx:init) 
+2020-12-11 10:11:16 GMT [ISC.0063.0011I] Start 
+2020-12-11 10:11:16 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.soap:init) 
+2020-12-11 10:11:16 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tspace:init) 
+2020-12-11 10:11:16 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ws:init) 
+2020-12-11 10:11:16 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.security.keystore:createDefaultKeyStoreTrustStoreAliases) 
+2020-12-11 10:11:16 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ntlmclient:init) 
+2020-12-11 10:11:16 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.kerberossettings:init) 
+2020-12-11 10:11:16 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.admin:initHelpTopicURLMappings) 
+2020-12-11 10:11:16 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.sftpclient:updateCommonConfig) 
+2020-12-11 10:11:16 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.access:initAccountLocking) 
+2020-12-11 10:11:17 GMT [ISS.0028.0012I] WmPublic: Startup service (pub.storage:startup) 
+2020-12-11 10:11:17 GMT [ISS.0028.0012I] WmXSLT: Startup service (wm.xslt.Admin:startup) 
+2020-12-11 10:11:17 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.mediatype:addSupport) 
+2020-12-11 10:11:17 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.logging:init) 
+2020-12-11 10:11:17 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.config:init) 
+2020-12-11 10:11:21 GMT [CLS.0010.0002I] WS-Stack repository located at /opt/softwareag/IntegrationServer/bin/../config/wss/ 
+2020-12-11 10:11:21 GMT [CLS.0010.0003I] WS-Stack configuration file located: /opt/softwareag/IntegrationServer/bin/../config/wss//axis2.xml 
+2020-12-11 10:11:21 GMT [CLS.0010.0175I] 
+ CloudStreams product is initialized. 
+ 
+2020-12-11 10:11:22 GMT [CLS.0010.0045I] CloudStreams Spring context loaded. 
+2020-12-11 10:11:23 GMT [CLS.0205.0021I] LifeCycleEventPublisher - startup method is called 
+2020-12-11 10:11:23 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.UIConfig:initUI) 
+2020-12-11 10:11:23 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (wm.cloudstreams.admin:startup) 
+2020-12-11 10:11:23 GMT [ISS.0028.0012I] WmISExtDC: Startup service (com.wm.isextdc.PkgInit:init) 
+2020-12-11 10:11:23 GMT [ISS.0028.0012I] WmConsul: Startup service (wm.server.consul.util:init) 
+2020-12-11 10:11:23 GMT [ISS.0028.0012I] WmAdmin: Startup service (wm.admin.controller:init) 
+2020-12-11 10:11:23 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:init) 
+2020-12-11 10:11:23 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:setACLs) 
+2020-12-11 10:11:23 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:createDefaultILiveTrustStoreAlias) 
+2020-12-11 10:11:23 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:loadTenantAccountInfo) 
+2020-12-11 10:11:23 GMT [ISS.0021.6005I] webMethods Cloud information was not loaded because the settings are not specified. 
+2020-12-11 10:11:23 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.connector:initConnectors) 
+2020-12-11 10:11:23 GMT [ISS.0028.0012I] WmART: Startup service (wm.art.admin:startup) 
+2020-12-11 10:11:23 GMT [ISS.0028.0012I] WmARTExtDC: Startup service (com.wm.artextdc.pkginit:init) 
+2020-12-11 10:11:23 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 9999 
+2020-12-11 10:11:23 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 5555 
+2020-12-11 10:11:24 GMT [ISS.0025.0013I] Cache Sweeper started 
+2020-12-11 10:11:24 GMT [ISS.0035.0003I] Log rotation interval set to 1440 minutes. 
+2020-12-11 10:11:24 GMT [ISS.0025.0057I] Reading system level information 
+2020-12-11 10:11:24 GMT [ISS.0014.0002I] Initialization completed in 54 seconds. 
+2020-12-11 10:11:24 GMT [ISS.0025.0016I] Config File Directory Saved 
+2020-12-11 10:11:25 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.RestVS to the SOAP Stack 
+2020-12-11 10:11:25 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.SoapVS to the SOAP Stack 
+2020-12-11 10:11:25 GMT [CLS.0010.0020W] Consumer file [/opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/consumers.xml] could not be found! Could not load Consumer information into CloudStreams. 
+2020-12-11 10:11:25 GMT [CLS.0010.0320I] Read 0 registered consumer names from /opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/registeredNames.xml 
+2020-12-11 10:11:36 GMT [CLS.0203.0013W] No value defined in CCC cache for this key: currentInterval 
+2020-12-11 11:49:52 GMT [ISS.0025.0001I] Integration Server 10.5.0.0 Build 84 
+2020-12-11 11:49:52 GMT [ISS.0001.0002C] Integration Server License key expired or invalid. 
+2020-12-11 11:49:52 GMT [ISS.0001.0004C] Integration Server will shutdown in 30 minutes, unless a valid license key is provided. 
+2020-12-11 11:49:52 GMT [ISS.0025.0006I] License Manager started 
+2020-12-11 11:49:52 GMT [ISS.0001.0008W] Clustering Functionality disabled due to license restrictions. 
+2020-12-11 11:49:52 GMT [ISS.0001.0008W] Publish / Subscribe Functionality disabled due to license restrictions. 
+2020-12-11 11:49:52 GMT [ISS.0001.0008W] Adapter Runtime Functionality disabled due to license restrictions. 
+2020-12-11 11:49:52 GMT [ISS.0001.0008W] Remote Invoke Functionality disabled due to license restrictions. 
+2020-12-11 11:49:52 GMT [ISS.0001.0008W] Guaranteed Delivery Functionality disabled due to license restrictions. 
+2020-12-11 11:49:52 GMT [ISS.0001.0008W] Security Auditing Functionality disabled due to license restrictions. 
+2020-12-11 11:49:52 GMT [ISS.0001.0008W] Enterprise Gateway Functionality disabled due to license restrictions. 
+2020-12-11 11:49:52 GMT [ISS.0001.0008W] Distributed Cache Functionality disabled due to license restrictions. 
+2020-12-11 11:49:52 GMT [ISS.0001.0008W] Microservices Functionality disabled due to license restrictions. 
+2020-12-11 11:49:53 GMT [ISS.0025.0049I] The JCE Unlimited Strength Jurisdiction Policy File was found 
+2020-12-11 11:49:53 GMT [ISS.0025.0041I] FIPS mode not initialized 
+2020-12-11 11:49:56 GMT [ISS.0025.0024I] JDBC Connection Manager started 
+2020-12-11 11:49:57 GMT [ISS.0095.0013I] Audit Logging initialized. 
+2020-12-11 11:50:00 GMT [ISS.0033.0168I] Cluster Node Name: wmcs105.rndlab.ad.local. 
+2020-12-11 11:50:00 GMT [ISS.0025.0017I] Repository Manager started 
+2020-12-11 11:50:01 GMT [ISS.0025.0021I] ACL Manager started 
+2020-12-11 11:50:02 GMT [ISS.0025.0008I] State Manager started 
+2020-12-11 11:50:02 GMT [ISS.0025.0010I] Service Manager started 
+2020-12-11 11:50:02 GMT [ISS.0025.0020I] Validation Processor started 
+2020-12-11 11:50:02 GMT [ISS.0025.0022I] Statistics Processor started 
+2020-12-11 11:50:02 GMT [ISS.0025.0018I] Invoke Manager started 
+2020-12-11 11:50:02 GMT [ISS.0025.0012I] Cache Manager started 
+2020-12-11 11:50:03 GMT [ISS.0134.0128I] JMS subsystem is starting. 
+2020-12-11 11:50:03 GMT [ISS.0134.0998I] DEFAULT_IS_JMS_CONNECTION cache enabled :: true 
+2020-12-11 11:50:03 GMT [ISS.0134.0998I] PE_NONTRANSACTIONAL_ALIAS cache enabled :: true 
+2020-12-11 11:50:03 GMT [ISS.0134.0000I] JMS subsystem started 
+2020-12-11 11:50:03 GMT [ISS.0173.0000I] Common Messaging subsystem started 
+2020-12-11 11:50:04 GMT [SCC.0121.0093I] XA Recovery Store initialized 
+2020-12-11 11:50:04 GMT [com.webmethods.fabric.agent.FabricAgent.null.load.startI] Loading registry config file /opt/softwareag/IntegrationServer/bin/../config/fabric-agent.xml 
+2020-12-11 11:50:04 GMT [com.webmethods.fabric.agent.FabricAgent.null.startI] Starting Fabric Agent 
+2020-12-11 11:50:04 GMT [ISS.0025.0055I] Lock Manager initialized 
+2020-12-11 11:50:09 GMT [ISS.0158.0000I] OData Server module is initialized. 
+2020-12-11 11:50:09 GMT [ISS.0048.9999I] Successfully initialized module "odata-server" by com.softwareag.is.odata.core.Init 
+2020-12-11 11:50:09 GMT [ISS.0048.9999I] Successfully initialized module "websocket-server" by com.softwareag.is.websocket.server.Init 
+2020-12-11 11:50:09 GMT [ISS.0048.9999I] Successfully initialized module "graphql-server" by com.softwareag.is.graphql.Init 
+2020-12-11 11:50:09 GMT [ISS.0139.9999I] Initializing ISKeyStoreManager using watt.server.homeDir:/opt/softwareag/IntegrationServer/bin/../config/security/keystore 
+2020-12-11 11:50:09 GMT [ISS.0139.9999I] ISKeyStoreManager initialized successfully. 
+2020-12-11 11:50:09 GMT [ISS.0025.0004I] Flow Service Manager started 
+2020-12-11 11:50:09 GMT [ISS.0025.0002I] Package Manager started 
+2020-12-11 11:50:09 GMT [ISS.0025.0011I] Package Replicator Manager started 
+2020-12-11 11:50:09 GMT [ISS.0028.0001I] Loading packages 
+2020-12-11 11:50:12 GMT [ISS.0028.0005I] Loading WmRoot package 
+2020-12-11 11:50:17 GMT [ISS.0028.0005I] Loading WmPublic package 
+2020-12-11 11:50:17 GMT [ISS.0028.0005I] Loading WmISExtDC package 
+2020-12-11 11:50:17 GMT [ISS.0028.0005I] Loading WmAdmin package 
+2020-12-11 11:50:17 GMT [ISS.0028.0005I] Loading WmJSONAPI package 
+2020-12-11 11:50:17 GMT [ISS.0028.0005I] Loading WmConsul package 
+2020-12-11 11:50:17 GMT [ISS.0028.0005I] Loading WmXSLT package 
+2020-12-11 11:50:17 GMT [ISS.0028.0005I] Loading WmCloud package 
+2020-12-11 11:50:26 GMT [ISS.0028.0005I] Loading WmFlatFile package 
+2020-12-11 11:50:28 GMT [ISS.0028.0005I] Loading WmCloudStreams package 
+2020-12-11 11:50:28 GMT [ISS.0028.0005I] Loading WmART package 
+2020-12-11 11:50:28 GMT [ISS.0028.0005I] Loading WmARTExtDC package 
+2020-12-11 11:50:30 GMT [ISS.0028.0005I] Loading Default package 
+2020-12-11 12:01:14 GMT [ISS.0025.0001I] Integration Server 10.5.0.0 Build 84 
+2020-12-11 12:01:14 GMT [ISS.0001.0002C] Integration Server License key expired or invalid. 
+2020-12-11 12:01:14 GMT [ISS.0001.0004C] Integration Server will shutdown in 30 minutes, unless a valid license key is provided. 
+2020-12-11 12:01:14 GMT [ISS.0025.0006I] License Manager started 
+2020-12-11 12:01:14 GMT [ISS.0001.0008W] Clustering Functionality disabled due to license restrictions. 
+2020-12-11 12:01:14 GMT [ISS.0001.0008W] Publish / Subscribe Functionality disabled due to license restrictions. 
+2020-12-11 12:01:14 GMT [ISS.0001.0008W] Adapter Runtime Functionality disabled due to license restrictions. 
+2020-12-11 12:01:14 GMT [ISS.0001.0008W] Remote Invoke Functionality disabled due to license restrictions. 
+2020-12-11 12:01:14 GMT [ISS.0001.0008W] Guaranteed Delivery Functionality disabled due to license restrictions. 
+2020-12-11 12:01:14 GMT [ISS.0001.0008W] Security Auditing Functionality disabled due to license restrictions. 
+2020-12-11 12:01:14 GMT [ISS.0001.0008W] Enterprise Gateway Functionality disabled due to license restrictions. 
+2020-12-11 12:01:14 GMT [ISS.0001.0008W] Distributed Cache Functionality disabled due to license restrictions. 
+2020-12-11 12:01:14 GMT [ISS.0001.0008W] Microservices Functionality disabled due to license restrictions. 
+2020-12-11 12:01:14 GMT [ISS.0025.0049I] The JCE Unlimited Strength Jurisdiction Policy File was found 
+2020-12-11 12:01:14 GMT [ISS.0025.0041I] FIPS mode not initialized 
+2020-12-11 12:01:21 GMT [ISS.0096.0002W] JDBCConnectionManager: creating Embedded Pool Alias for Xref. 
+2020-12-11 12:01:21 GMT [ISS.0096.0002W] JDBCConnectionManager: creating Embedded Pool Alias for ISInternal. 
+2020-12-11 12:01:21 GMT [ISS.0096.0003I] JDBCConnectionManager: creating database object for embedded database: IS_USER_TASKS.LAST_UPDATED 
+2020-12-11 12:01:21 GMT [ISS.0025.0024I] JDBC Connection Manager started 
+2020-12-11 12:01:21 GMT [ISS.0095.0026W] The AuditConfig.xml file was not found and is being created. The audit logging system is using default settings. 
+2020-12-11 12:01:21 GMT [ISS.0095.0025W] The auditing.cnf file was not found and is being created. 
+2020-12-11 12:01:21 GMT [ISS.0095.0025W] The transient.sql.errors.xml file was not found and is being created. 
+2020-12-11 12:01:23 GMT [ISS.0095.0013I] Audit Logging initialized. 
+2020-12-11 12:01:25 GMT [ISS.0033.0168I] Cluster Node Name: wmcs105. 
+2020-12-11 12:01:25 GMT [ISS.0025.0017I] Repository Manager started 
+2020-12-11 12:01:26 GMT [ISS.0025.0021I] ACL Manager started 
+2020-12-11 12:01:26 GMT [ISS.0025.0008I] State Manager started 
+2020-12-11 12:01:26 GMT [ISS.0025.0010I] Service Manager started 
+2020-12-11 12:01:26 GMT [ISS.0025.0020I] Validation Processor started 
+2020-12-11 12:01:26 GMT [ISS.0025.0022I] Statistics Processor started 
+2020-12-11 12:01:26 GMT [ISS.0025.0018I] Invoke Manager started 
+2020-12-11 12:01:26 GMT [ISS.0025.0012I] Cache Manager started 
+2020-12-11 12:01:28 GMT [ISS.0134.0128I] JMS subsystem is starting. 
+2020-12-11 12:01:28 GMT [ISS.0134.0010I] JMS subsystem is not configured. The default JMS connection alias is being created. 
+2020-12-11 12:01:28 GMT [ISS.0134.0998I] [STARTUP.UM_DETECTOR] no realm found in install directory: /opt/softwareag/UniversalMessaging/server 
+2020-12-11 12:01:28 GMT [ISS.0135.0003I] JNDIConfigurationManager added new JNDI Properties file "DEFAULT_IS_JNDI_PROVIDER" [{java.naming.factory.initial=com.pcbsys.nirvana.nSpace.NirvanaContextFactory, java.naming.provider.url=nsp://localhost:9000, is.jndiAlias.description=system generated JNDI provider alias}] 
+2020-12-11 12:01:28 GMT [ISS.0134.0998I] DEFAULT_IS_JMS_CONNECTION cache enabled :: true 
+2020-12-11 12:01:28 GMT [ISS.0134.0000I] JMS subsystem started 
+2020-12-11 12:01:28 GMT [ISS.0134.0998I] PE_NONTRANSACTIONAL_ALIAS cache enabled :: true 
+2020-12-11 12:01:28 GMT [ISS.0173.0000I] Common Messaging subsystem started 
+2020-12-11 12:01:28 GMT [SCC.0121.0093I] XA Recovery Store initialized 
+2020-12-11 12:01:28 GMT [com.webmethods.fabric.agent.FabricAgent.null.load.startI] Loading registry config file /opt/softwareag/IntegrationServer/bin/../config/fabric-agent.xml 
+2020-12-11 12:01:28 GMT [com.webmethods.fabric.agent.FabricAgent.null.startI] Starting Fabric Agent 
+2020-12-11 12:01:29 GMT [ISS.0025.0055I] Lock Manager initialized 
+2020-12-11 12:01:33 GMT [ISS.0158.0000I] OData Server module is initialized. 
+2020-12-11 12:01:33 GMT [ISS.0048.9999I] Successfully initialized module "odata-server" by com.softwareag.is.odata.core.Init 
+2020-12-11 12:01:33 GMT [ISS.0048.9999I] Successfully initialized module "websocket-server" by com.softwareag.is.websocket.server.Init 
+2020-12-11 12:01:33 GMT [ISS.0048.9999I] Successfully initialized module "graphql-server" by com.softwareag.is.graphql.Init 
+2020-12-11 12:01:33 GMT [ISS.0139.9999I] Initializing ISKeyStoreManager using watt.server.homeDir:/opt/softwareag/IntegrationServer/bin/../config/security/keystore 
+2020-12-11 12:01:33 GMT [ISS.0139.9999I] ISKeyStoreManager initialized successfully. 
+2020-12-11 12:01:33 GMT [ISS.0025.0004I] Flow Service Manager started 
+2020-12-11 12:01:33 GMT [ISS.0025.0002I] Package Manager started 
+2020-12-11 12:01:33 GMT [ISS.0025.0011I] Package Replicator Manager started 
+2020-12-11 12:01:33 GMT [ISS.0028.0001I] Loading packages 
+2020-12-11 12:01:35 GMT [ISS.0028.0005I] Loading WmRoot package 
+2020-12-11 12:01:40 GMT [ISS.0028.0005I] Loading WmPublic package 
+2020-12-11 12:01:41 GMT [ISS.0028.0005I] Loading WmISExtDC package 
+2020-12-11 12:01:41 GMT [ISS.0028.0005I] Loading WmAdmin package 
+2020-12-11 12:01:41 GMT [ISS.0028.0005I] Loading WmJSONAPI package 
+2020-12-11 12:01:41 GMT [ISS.0028.0005I] Loading WmCloud package 
+2020-12-11 12:01:41 GMT [ISS.0028.0005I] Loading WmConsul package 
+2020-12-11 12:01:41 GMT [ISS.0028.0005I] Loading WmXSLT package 
+2020-12-11 12:01:44 GMT [ISS.0028.0005I] Loading WmFlatFile package 
+2020-12-11 12:01:51 GMT [ISS.0028.0005I] Loading WmART package 
+2020-12-11 12:01:51 GMT [ISS.0028.0005I] Loading WmARTExtDC package 
+2020-12-11 12:01:52 GMT [ISS.0028.0005I] Loading WmCloudStreams package 
+2020-12-11 12:01:55 GMT [ISS.0028.0005I] Loading Default package 
+2020-12-11 12:01:57 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.event:startEventAgentPort) 
+2020-12-11 12:01:57 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.email:init) 
+2020-12-11 12:01:57 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftp:init) 
+2020-12-11 12:01:57 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftps:init) 
+2020-12-11 12:01:57 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.http:init) 
+2020-12-11 12:01:57 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.websocket:init) 
+2020-12-11 12:01:57 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ns:syncToNamespace) 
+2020-12-11 12:01:57 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.remote:init) 
+2020-12-11 12:01:57 GMT [ISP.0061.0009I] The default Remote Server Alias was created. 
+2020-12-11 12:01:57 GMT [ISS.0014.0044I] Cron Daemon Pool thread pool increased by 10 threads, current maximum is 15. 
+2020-12-11 12:01:57 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.registry:init) 
+2020-12-11 12:01:57 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.proxy:init) 
+2020-12-11 12:01:57 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.schedule:init) 
+2020-12-11 12:01:58 GMT [ISS.0137.0000I] [SCHED] IS 10.5, scheduler version: 2 
+2020-12-11 12:01:58 GMT [ISS.0137.0000I] [SCHED] checking DB level 
+2020-12-11 12:01:58 GMT [ISS.0137.0000I] [SCHED] level: v10.5 
+2020-12-11 12:01:58 GMT [ISS.0137.0000I] [SCHED] number: 10005000000 
+2020-12-11 12:01:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.dispatcher:init) 
+2020-12-11 12:01:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tx:init) 
+2020-12-11 12:01:58 GMT [ISC.0063.0011I] Start 
+2020-12-11 12:01:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.soap:init) 
+2020-12-11 12:01:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tspace:init) 
+2020-12-11 12:01:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ws:init) 
+2020-12-11 12:01:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.security.keystore:createDefaultKeyStoreTrustStoreAliases) 
+2020-12-11 12:01:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ntlmclient:init) 
+2020-12-11 12:01:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.kerberossettings:init) 
+2020-12-11 12:01:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.admin:initHelpTopicURLMappings) 
+2020-12-11 12:01:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.sftpclient:updateCommonConfig) 
+2020-12-11 12:01:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.access:initAccountLocking) 
+2020-12-11 12:01:58 GMT [ISS.0028.0012I] WmPublic: Startup service (pub.storage:startup) 
+2020-12-11 12:01:58 GMT [ISS.0028.0012I] WmXSLT: Startup service (wm.xslt.Admin:startup) 
+2020-12-11 12:01:58 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.mediatype:addSupport) 
+2020-12-11 12:01:58 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.logging:init) 
+2020-12-11 12:01:58 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.config:init) 
+2020-12-11 12:02:03 GMT [CLS.0010.0002I] WS-Stack repository located at /opt/softwareag/IntegrationServer/bin/../config/wss/ 
+2020-12-11 12:02:03 GMT [CLS.0010.0003I] WS-Stack configuration file located: /opt/softwareag/IntegrationServer/bin/../config/wss//axis2.xml 
+2020-12-11 12:02:03 GMT [CLS.0010.0175I] 
+ CloudStreams product is initialized. 
+ 
+2020-12-11 12:02:05 GMT [CLS.0010.0045I] CloudStreams Spring context loaded. 
+2020-12-11 12:02:05 GMT [CLS.0205.0021I] LifeCycleEventPublisher - startup method is called 
+2020-12-11 12:02:05 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.UIConfig:initUI) 
+2020-12-11 12:02:05 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (wm.cloudstreams.admin:startup) 
+2020-12-11 12:02:05 GMT [ISS.0028.0012I] WmISExtDC: Startup service (com.wm.isextdc.PkgInit:init) 
+2020-12-11 12:02:06 GMT [ISS.0028.0012I] WmConsul: Startup service (wm.server.consul.util:init) 
+2020-12-11 12:02:06 GMT [ISS.0028.0012I] WmAdmin: Startup service (wm.admin.controller:init) 
+2020-12-11 12:02:06 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:init) 
+2020-12-11 12:02:06 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:setACLs) 
+2020-12-11 12:02:06 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:createDefaultILiveTrustStoreAlias) 
+2020-12-11 12:02:06 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:loadTenantAccountInfo) 
+2020-12-11 12:02:06 GMT [ISS.0021.6005I] webMethods Cloud information was not loaded because the settings are not specified. 
+2020-12-11 12:02:06 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.connector:initConnectors) 
+2020-12-11 12:02:06 GMT [ISS.0028.0012I] WmART: Startup service (wm.art.admin:startup) 
+2020-12-11 12:02:06 GMT [ISS.0028.0012I] WmARTExtDC: Startup service (com.wm.artextdc.pkginit:init) 
+2020-12-11 12:02:06 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 9999 
+2020-12-11 12:02:06 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 5555 
+2020-12-11 12:02:07 GMT [ISS.0025.0013I] Cache Sweeper started 
+2020-12-11 12:02:07 GMT [ISS.0035.0003I] Log rotation interval set to 1440 minutes. 
+2020-12-11 12:02:07 GMT [ISS.0025.0057I] Reading system level information 
+2020-12-11 12:02:07 GMT [ISS.0014.0002I] Initialization completed in 55 seconds. 
+2020-12-11 12:02:07 GMT [ISS.0025.0016I] Config File Directory Saved 
+2020-12-11 12:02:07 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.RestVS to the SOAP Stack 
+2020-12-11 12:02:08 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.SoapVS to the SOAP Stack 
+2020-12-11 12:02:08 GMT [CLS.0010.0020W] Consumer file [/opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/consumers.xml] could not be found! Could not load Consumer information into CloudStreams. 
+2020-12-11 12:02:08 GMT [CLS.0010.0320I] Read 0 registered consumer names from /opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/registeredNames.xml 
+2020-12-11 12:02:18 GMT [CLS.0203.0013W] No value defined in CCC cache for this key: currentInterval 
+2020-12-11 12:06:06 GMT [ISS.0025.0001I] Integration Server 10.5.0.0 Build 84 
+2020-12-11 12:06:06 GMT [ISS.0001.0002C] Integration Server License key expired or invalid. 
+2020-12-11 12:06:06 GMT [ISS.0001.0004C] Integration Server will shutdown in 30 minutes, unless a valid license key is provided. 
+2020-12-11 12:06:06 GMT [ISS.0025.0006I] License Manager started 
+2020-12-11 12:06:06 GMT [ISS.0001.0008W] Clustering Functionality disabled due to license restrictions. 
+2020-12-11 12:06:06 GMT [ISS.0001.0008W] Publish / Subscribe Functionality disabled due to license restrictions. 
+2020-12-11 12:06:06 GMT [ISS.0001.0008W] Adapter Runtime Functionality disabled due to license restrictions. 
+2020-12-11 12:06:06 GMT [ISS.0001.0008W] Remote Invoke Functionality disabled due to license restrictions. 
+2020-12-11 12:06:06 GMT [ISS.0001.0008W] Guaranteed Delivery Functionality disabled due to license restrictions. 
+2020-12-11 12:06:06 GMT [ISS.0001.0008W] Security Auditing Functionality disabled due to license restrictions. 
+2020-12-11 12:06:06 GMT [ISS.0001.0008W] Enterprise Gateway Functionality disabled due to license restrictions. 
+2020-12-11 12:06:06 GMT [ISS.0001.0008W] Distributed Cache Functionality disabled due to license restrictions. 
+2020-12-11 12:06:06 GMT [ISS.0001.0008W] Microservices Functionality disabled due to license restrictions. 
+2020-12-11 12:06:06 GMT [ISS.0025.0049I] The JCE Unlimited Strength Jurisdiction Policy File was found 
+2020-12-11 12:06:06 GMT [ISS.0025.0041I] FIPS mode not initialized 
+2020-12-11 12:06:12 GMT [ISS.0096.0002W] JDBCConnectionManager: creating Embedded Pool Alias for Xref. 
+2020-12-11 12:06:12 GMT [ISS.0096.0002W] JDBCConnectionManager: creating Embedded Pool Alias for ISInternal. 
+2020-12-11 12:06:12 GMT [ISS.0096.0003I] JDBCConnectionManager: creating database object for embedded database: IS_USER_TASKS.LAST_UPDATED 
+2020-12-11 12:06:13 GMT [ISS.0025.0024I] JDBC Connection Manager started 
+2020-12-11 12:06:13 GMT [ISS.0095.0026W] The AuditConfig.xml file was not found and is being created. The audit logging system is using default settings. 
+2020-12-11 12:06:13 GMT [ISS.0095.0025W] The auditing.cnf file was not found and is being created. 
+2020-12-11 12:06:13 GMT [ISS.0095.0025W] The transient.sql.errors.xml file was not found and is being created. 
+2020-12-11 12:06:15 GMT [ISS.0095.0013I] Audit Logging initialized. 
+2020-12-11 12:06:16 GMT [ISS.0033.0168I] Cluster Node Name: wmcs105. 
+2020-12-11 12:06:17 GMT [ISS.0025.0017I] Repository Manager started 
+2020-12-11 12:06:18 GMT [ISS.0025.0021I] ACL Manager started 
+2020-12-11 12:06:18 GMT [ISS.0025.0008I] State Manager started 
+2020-12-11 12:06:18 GMT [ISS.0025.0010I] Service Manager started 
+2020-12-11 12:06:18 GMT [ISS.0025.0020I] Validation Processor started 
+2020-12-11 12:06:18 GMT [ISS.0025.0022I] Statistics Processor started 
+2020-12-11 12:06:18 GMT [ISS.0025.0018I] Invoke Manager started 
+2020-12-11 12:06:18 GMT [ISS.0025.0012I] Cache Manager started 
+2020-12-11 12:06:19 GMT [ISS.0134.0128I] JMS subsystem is starting. 
+2020-12-11 12:06:19 GMT [ISS.0134.0010I] JMS subsystem is not configured. The default JMS connection alias is being created. 
+2020-12-11 12:06:19 GMT [ISS.0134.0998I] [STARTUP.UM_DETECTOR] no realm found in install directory: /opt/softwareag/UniversalMessaging/server 
+2020-12-11 12:06:19 GMT [ISS.0135.0003I] JNDIConfigurationManager added new JNDI Properties file "DEFAULT_IS_JNDI_PROVIDER" [{java.naming.factory.initial=com.pcbsys.nirvana.nSpace.NirvanaContextFactory, java.naming.provider.url=nsp://localhost:9000, is.jndiAlias.description=system generated JNDI provider alias}] 
+2020-12-11 12:06:19 GMT [ISS.0134.0998I] DEFAULT_IS_JMS_CONNECTION cache enabled :: true 
+2020-12-11 12:06:19 GMT [ISS.0134.0000I] JMS subsystem started 
+2020-12-11 12:06:19 GMT [ISS.0134.0998I] PE_NONTRANSACTIONAL_ALIAS cache enabled :: true 
+2020-12-11 12:06:19 GMT [ISS.0173.0000I] Common Messaging subsystem started 
+2020-12-11 12:06:20 GMT [SCC.0121.0093I] XA Recovery Store initialized 
+2020-12-11 12:06:20 GMT [com.webmethods.fabric.agent.FabricAgent.null.load.startI] Loading registry config file /opt/softwareag/IntegrationServer/bin/../config/fabric-agent.xml 
+2020-12-11 12:06:20 GMT [com.webmethods.fabric.agent.FabricAgent.null.startI] Starting Fabric Agent 
+2020-12-11 12:06:20 GMT [ISS.0025.0055I] Lock Manager initialized 
+2020-12-11 12:06:24 GMT [ISS.0158.0000I] OData Server module is initialized. 
+2020-12-11 12:06:24 GMT [ISS.0048.9999I] Successfully initialized module "odata-server" by com.softwareag.is.odata.core.Init 
+2020-12-11 12:06:24 GMT [ISS.0048.9999I] Successfully initialized module "websocket-server" by com.softwareag.is.websocket.server.Init 
+2020-12-11 12:06:24 GMT [ISS.0048.9999I] Successfully initialized module "graphql-server" by com.softwareag.is.graphql.Init 
+2020-12-11 12:06:24 GMT [ISS.0139.9999I] Initializing ISKeyStoreManager using watt.server.homeDir:/opt/softwareag/IntegrationServer/bin/../config/security/keystore 
+2020-12-11 12:06:24 GMT [ISS.0139.9999I] ISKeyStoreManager initialized successfully. 
+2020-12-11 12:06:24 GMT [ISS.0025.0004I] Flow Service Manager started 
+2020-12-11 12:06:24 GMT [ISS.0025.0002I] Package Manager started 
+2020-12-11 12:06:24 GMT [ISS.0025.0011I] Package Replicator Manager started 
+2020-12-11 12:06:24 GMT [ISS.0028.0001I] Loading packages 
+2020-12-11 12:06:27 GMT [ISS.0028.0005I] Loading WmRoot package 
+2020-12-11 12:06:32 GMT [ISS.0028.0005I] Loading WmPublic package 
+2020-12-11 12:06:32 GMT [ISS.0028.0005I] Loading WmAdmin package 
+2020-12-11 12:06:32 GMT [ISS.0028.0005I] Loading WmISExtDC package 
+2020-12-11 12:06:32 GMT [ISS.0028.0005I] Loading WmJSONAPI package 
+2020-12-11 12:06:32 GMT [ISS.0028.0005I] Loading WmXSLT package 
+2020-12-11 12:06:32 GMT [ISS.0028.0005I] Loading WmConsul package 
+2020-12-11 12:06:32 GMT [ISS.0028.0005I] Loading WmCloud package 
+2020-12-11 12:06:38 GMT [ISS.0028.0005I] Loading WmFlatFile package 
+2020-12-11 12:06:42 GMT [ISS.0028.0005I] Loading WmART package 
+2020-12-11 12:06:42 GMT [ISS.0028.0005I] Loading WmARTExtDC package 
+2020-12-11 12:06:43 GMT [ISS.0028.0005I] Loading WmCloudStreams package 
+2020-12-11 12:06:44 GMT [ISS.0028.0005I] Loading Default package 
+2020-12-11 12:06:46 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.event:startEventAgentPort) 
+2020-12-11 12:06:46 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.email:init) 
+2020-12-11 12:06:46 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftp:init) 
+2020-12-11 12:06:46 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftps:init) 
+2020-12-11 12:06:46 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.http:init) 
+2020-12-11 12:06:46 GMT [ISS.0070.0008W] Failed to bootstrap listener HTTPListener@5555 
+2020-12-11 12:06:46 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.websocket:init) 
+2020-12-11 12:06:46 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ns:syncToNamespace) 
+2020-12-11 12:06:46 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.remote:init) 
+2020-12-11 12:06:47 GMT [ISP.0061.0009I] The default Remote Server Alias was created. 
+2020-12-11 12:06:47 GMT [ISS.0014.0044I] Cron Daemon Pool thread pool increased by 10 threads, current maximum is 15. 
+2020-12-11 12:06:47 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.registry:init) 
+2020-12-11 12:06:47 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.proxy:init) 
+2020-12-11 12:06:47 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.schedule:init) 
+2020-12-11 12:06:47 GMT [ISS.0137.0000I] [SCHED] IS 10.5, scheduler version: 2 
+2020-12-11 12:06:47 GMT [ISS.0137.0000I] [SCHED] checking DB level 
+2020-12-11 12:06:47 GMT [ISS.0137.0000I] [SCHED] level: v10.5 
+2020-12-11 12:06:47 GMT [ISS.0137.0000I] [SCHED] number: 10005000000 
+2020-12-11 12:06:47 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.dispatcher:init) 
+2020-12-11 12:06:47 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tx:init) 
+2020-12-11 12:06:47 GMT [ISC.0063.0011I] Start 
+2020-12-11 12:06:47 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.soap:init) 
+2020-12-11 12:06:47 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tspace:init) 
+2020-12-11 12:06:47 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ws:init) 
+2020-12-11 12:06:47 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.security.keystore:createDefaultKeyStoreTrustStoreAliases) 
+2020-12-11 12:06:47 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ntlmclient:init) 
+2020-12-11 12:06:47 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.kerberossettings:init) 
+2020-12-11 12:06:47 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.admin:initHelpTopicURLMappings) 
+2020-12-11 12:06:47 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.sftpclient:updateCommonConfig) 
+2020-12-11 12:06:47 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.access:initAccountLocking) 
+2020-12-11 12:06:47 GMT [ISS.0028.0012I] WmPublic: Startup service (pub.storage:startup) 
+2020-12-11 12:06:47 GMT [ISS.0028.0012I] WmXSLT: Startup service (wm.xslt.Admin:startup) 
+2020-12-11 12:06:48 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.mediatype:addSupport) 
+2020-12-11 12:06:48 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.logging:init) 
+2020-12-11 12:06:48 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.config:init) 
+2020-12-11 12:06:52 GMT [CLS.0010.0002I] WS-Stack repository located at /opt/softwareag/IntegrationServer/bin/../config/wss/ 
+2020-12-11 12:06:52 GMT [CLS.0010.0003I] WS-Stack configuration file located: /opt/softwareag/IntegrationServer/bin/../config/wss//axis2.xml 
+2020-12-11 12:06:52 GMT [CLS.0010.0175I] 
+ CloudStreams product is initialized. 
+ 
+2020-12-11 12:06:53 GMT [CLS.0010.0045I] CloudStreams Spring context loaded. 
+2020-12-11 12:06:53 GMT [CLS.0205.0021I] LifeCycleEventPublisher - startup method is called 
+2020-12-11 12:06:53 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.UIConfig:initUI) 
+2020-12-11 12:06:53 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (wm.cloudstreams.admin:startup) 
+2020-12-11 12:06:54 GMT [ISS.0028.0012I] WmISExtDC: Startup service (com.wm.isextdc.PkgInit:init) 
+2020-12-11 12:06:54 GMT [ISS.0028.0012I] WmConsul: Startup service (wm.server.consul.util:init) 
+2020-12-11 12:06:54 GMT [ISS.0028.0012I] WmAdmin: Startup service (wm.admin.controller:init) 
+2020-12-11 12:06:54 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:init) 
+2020-12-11 12:06:54 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:setACLs) 
+2020-12-11 12:06:54 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:createDefaultILiveTrustStoreAlias) 
+2020-12-11 12:06:54 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:loadTenantAccountInfo) 
+2020-12-11 12:06:54 GMT [ISS.0021.6005I] webMethods Cloud information was not loaded because the settings are not specified. 
+2020-12-11 12:06:54 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.connector:initConnectors) 
+2020-12-11 12:06:54 GMT [ISS.0028.0012I] WmART: Startup service (wm.art.admin:startup) 
+2020-12-11 12:06:54 GMT [ISS.0028.0012I] WmARTExtDC: Startup service (com.wm.artextdc.pkginit:init) 
+2020-12-11 12:06:54 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 9999 
+2020-12-11 12:06:54 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 5555 
+2020-12-11 12:06:55 GMT [ISS.0025.0013I] Cache Sweeper started 
+2020-12-11 12:06:55 GMT [ISS.0035.0003I] Log rotation interval set to 1440 minutes. 
+2020-12-11 12:06:55 GMT [ISS.0025.0057I] Reading system level information 
+2020-12-11 12:06:55 GMT [ISS.0014.0002I] Initialization completed in 51 seconds. 
+2020-12-11 12:06:55 GMT [ISS.0025.0016I] Config File Directory Saved 
+2020-12-11 12:06:55 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.RestVS to the SOAP Stack 
+2020-12-11 12:06:56 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.SoapVS to the SOAP Stack 
+2020-12-11 12:06:56 GMT [CLS.0010.0020W] Consumer file [/opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/consumers.xml] could not be found! Could not load Consumer information into CloudStreams. 
+2020-12-11 12:06:56 GMT [CLS.0010.0320I] Read 0 registered consumer names from /opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/registeredNames.xml 
+2020-12-11 12:07:07 GMT [CLS.0203.0013W] No value defined in CCC cache for this key: currentInterval 
+2020-12-11 12:10:24 GMT [ISS.0025.0001I] Integration Server 10.5.0.0 Build 84 
+2020-12-11 12:10:24 GMT [ISS.0001.0002C] Integration Server License key expired or invalid. 
+2020-12-11 12:10:24 GMT [ISS.0001.0004C] Integration Server will shutdown in 30 minutes, unless a valid license key is provided. 
+2020-12-11 12:10:24 GMT [ISS.0025.0006I] License Manager started 
+2020-12-11 12:10:24 GMT [ISS.0001.0008W] Clustering Functionality disabled due to license restrictions. 
+2020-12-11 12:10:24 GMT [ISS.0001.0008W] Publish / Subscribe Functionality disabled due to license restrictions. 
+2020-12-11 12:10:24 GMT [ISS.0001.0008W] Adapter Runtime Functionality disabled due to license restrictions. 
+2020-12-11 12:10:24 GMT [ISS.0001.0008W] Remote Invoke Functionality disabled due to license restrictions. 
+2020-12-11 12:10:24 GMT [ISS.0001.0008W] Guaranteed Delivery Functionality disabled due to license restrictions. 
+2020-12-11 12:10:24 GMT [ISS.0001.0008W] Security Auditing Functionality disabled due to license restrictions. 
+2020-12-11 12:10:24 GMT [ISS.0001.0008W] Enterprise Gateway Functionality disabled due to license restrictions. 
+2020-12-11 12:10:24 GMT [ISS.0001.0008W] Distributed Cache Functionality disabled due to license restrictions. 
+2020-12-11 12:10:24 GMT [ISS.0001.0008W] Microservices Functionality disabled due to license restrictions. 
+2020-12-11 12:10:24 GMT [ISS.0025.0049I] The JCE Unlimited Strength Jurisdiction Policy File was found 
+2020-12-11 12:10:24 GMT [ISS.0025.0041I] FIPS mode not initialized 
+2020-12-11 12:10:30 GMT [ISS.0096.0002W] JDBCConnectionManager: creating Embedded Pool Alias for Xref. 
+2020-12-11 12:10:30 GMT [ISS.0096.0002W] JDBCConnectionManager: creating Embedded Pool Alias for ISInternal. 
+2020-12-11 12:10:30 GMT [ISS.0096.0003I] JDBCConnectionManager: creating database object for embedded database: IS_USER_TASKS.LAST_UPDATED 
+2020-12-11 12:10:30 GMT [ISS.0025.0024I] JDBC Connection Manager started 
+2020-12-11 12:10:30 GMT [ISS.0095.0026W] The AuditConfig.xml file was not found and is being created. The audit logging system is using default settings. 
+2020-12-11 12:10:30 GMT [ISS.0095.0025W] The auditing.cnf file was not found and is being created. 
+2020-12-11 12:10:30 GMT [ISS.0095.0025W] The transient.sql.errors.xml file was not found and is being created. 
+2020-12-11 12:10:32 GMT [ISS.0095.0013I] Audit Logging initialized. 
+2020-12-11 12:10:34 GMT [ISS.0033.0168I] Cluster Node Name: wmcs105. 
+2020-12-11 12:10:34 GMT [ISS.0025.0017I] Repository Manager started 
+2020-12-11 12:10:35 GMT [ISS.0025.0021I] ACL Manager started 
+2020-12-11 12:10:35 GMT [ISS.0025.0008I] State Manager started 
+2020-12-11 12:10:35 GMT [ISS.0025.0010I] Service Manager started 
+2020-12-11 12:10:35 GMT [ISS.0025.0020I] Validation Processor started 
+2020-12-11 12:10:35 GMT [ISS.0025.0022I] Statistics Processor started 
+2020-12-11 12:10:35 GMT [ISS.0025.0018I] Invoke Manager started 
+2020-12-11 12:10:35 GMT [ISS.0025.0012I] Cache Manager started 
+2020-12-11 12:10:36 GMT [ISS.0134.0128I] JMS subsystem is starting. 
+2020-12-11 12:10:36 GMT [ISS.0134.0010I] JMS subsystem is not configured. The default JMS connection alias is being created. 
+2020-12-11 12:10:36 GMT [ISS.0134.0998I] [STARTUP.UM_DETECTOR] no realm found in install directory: /opt/softwareag/UniversalMessaging/server 
+2020-12-11 12:10:36 GMT [ISS.0135.0003I] JNDIConfigurationManager added new JNDI Properties file "DEFAULT_IS_JNDI_PROVIDER" [{java.naming.factory.initial=com.pcbsys.nirvana.nSpace.NirvanaContextFactory, java.naming.provider.url=nsp://localhost:9000, is.jndiAlias.description=system generated JNDI provider alias}] 
+2020-12-11 12:10:36 GMT [ISS.0134.0998I] DEFAULT_IS_JMS_CONNECTION cache enabled :: true 
+2020-12-11 12:10:36 GMT [ISS.0134.0000I] JMS subsystem started 
+2020-12-11 12:10:36 GMT [ISS.0134.0998I] PE_NONTRANSACTIONAL_ALIAS cache enabled :: true 
+2020-12-11 12:10:36 GMT [ISS.0173.0000I] Common Messaging subsystem started 
+2020-12-11 12:10:37 GMT [SCC.0121.0093I] XA Recovery Store initialized 
+2020-12-11 12:10:37 GMT [com.webmethods.fabric.agent.FabricAgent.null.load.startI] Loading registry config file /opt/softwareag/IntegrationServer/bin/../config/fabric-agent.xml 
+2020-12-11 12:10:37 GMT [com.webmethods.fabric.agent.FabricAgent.null.startI] Starting Fabric Agent 
+2020-12-11 12:10:37 GMT [ISS.0025.0055I] Lock Manager initialized 
+2020-12-11 12:10:42 GMT [ISS.0158.0000I] OData Server module is initialized. 
+2020-12-11 12:10:42 GMT [ISS.0048.9999I] Successfully initialized module "odata-server" by com.softwareag.is.odata.core.Init 
+2020-12-11 12:10:42 GMT [ISS.0048.9999I] Successfully initialized module "websocket-server" by com.softwareag.is.websocket.server.Init 
+2020-12-11 12:10:42 GMT [ISS.0048.9999I] Successfully initialized module "graphql-server" by com.softwareag.is.graphql.Init 
+2020-12-11 12:10:42 GMT [ISS.0139.9999I] Initializing ISKeyStoreManager using watt.server.homeDir:/opt/softwareag/IntegrationServer/bin/../config/security/keystore 
+2020-12-11 12:10:42 GMT [ISS.0139.9999I] ISKeyStoreManager initialized successfully. 
+2020-12-11 12:10:42 GMT [ISS.0025.0004I] Flow Service Manager started 
+2020-12-11 12:10:42 GMT [ISS.0025.0002I] Package Manager started 
+2020-12-11 12:10:42 GMT [ISS.0025.0011I] Package Replicator Manager started 
+2020-12-11 12:10:42 GMT [ISS.0028.0001I] Loading packages 
+2020-12-11 12:10:45 GMT [ISS.0028.0005I] Loading WmRoot package 
+2020-12-11 12:10:50 GMT [ISS.0028.0005I] Loading WmPublic package 
+2020-12-11 12:10:50 GMT [ISS.0028.0005I] Loading WmJSONAPI package 
+2020-12-11 12:10:50 GMT [ISS.0028.0005I] Loading WmAdmin package 
+2020-12-11 12:10:50 GMT [ISS.0028.0005I] Loading WmConsul package 
+2020-12-11 12:10:50 GMT [ISS.0028.0005I] Loading WmISExtDC package 
+2020-12-11 12:10:50 GMT [ISS.0028.0005I] Loading WmXSLT package 
+2020-12-11 12:10:50 GMT [ISS.0028.0005I] Loading WmCloud package 
+2020-12-11 12:10:57 GMT [ISS.0028.0005I] Loading WmFlatFile package 
+2020-12-11 12:11:02 GMT [ISS.0028.0005I] Loading WmCloudStreams package 
+2020-12-11 12:11:03 GMT [ISS.0028.0005I] Loading WmART package 
+2020-12-11 12:11:03 GMT [ISS.0028.0005I] Loading WmARTExtDC package 
+2020-12-11 12:11:05 GMT [ISS.0028.0005I] Loading Default package 
+2020-12-11 12:11:07 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.event:startEventAgentPort) 
+2020-12-11 12:11:07 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.email:init) 
+2020-12-11 12:11:07 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftp:init) 
+2020-12-11 12:11:07 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftps:init) 
+2020-12-11 12:11:07 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.http:init) 
+2020-12-11 12:11:07 GMT [ISS.0070.0008W] Failed to bootstrap listener HTTPListener@5555 
+2020-12-11 12:11:07 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.websocket:init) 
+2020-12-11 12:11:07 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ns:syncToNamespace) 
+2020-12-11 12:11:07 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.remote:init) 
+2020-12-11 12:11:07 GMT [ISP.0061.0009I] The default Remote Server Alias was created. 
+2020-12-11 12:11:07 GMT [ISS.0014.0044I] Cron Daemon Pool thread pool increased by 10 threads, current maximum is 15. 
+2020-12-11 12:11:07 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.registry:init) 
+2020-12-11 12:11:07 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.proxy:init) 
+2020-12-11 12:11:07 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.schedule:init) 
+2020-12-11 12:11:07 GMT [ISS.0137.0000I] [SCHED] IS 10.5, scheduler version: 2 
+2020-12-11 12:11:07 GMT [ISS.0137.0000I] [SCHED] checking DB level 
+2020-12-11 12:11:07 GMT [ISS.0137.0000I] [SCHED] level: v10.5 
+2020-12-11 12:11:07 GMT [ISS.0137.0000I] [SCHED] number: 10005000000 
+2020-12-11 12:11:07 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.dispatcher:init) 
+2020-12-11 12:11:07 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tx:init) 
+2020-12-11 12:11:08 GMT [ISC.0063.0011I] Start 
+2020-12-11 12:11:08 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.soap:init) 
+2020-12-11 12:11:08 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tspace:init) 
+2020-12-11 12:11:08 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ws:init) 
+2020-12-11 12:11:08 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.security.keystore:createDefaultKeyStoreTrustStoreAliases) 
+2020-12-11 12:11:08 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ntlmclient:init) 
+2020-12-11 12:11:08 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.kerberossettings:init) 
+2020-12-11 12:11:08 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.admin:initHelpTopicURLMappings) 
+2020-12-11 12:11:08 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.sftpclient:updateCommonConfig) 
+2020-12-11 12:11:08 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.access:initAccountLocking) 
+2020-12-11 12:11:08 GMT [ISS.0028.0012I] WmPublic: Startup service (pub.storage:startup) 
+2020-12-11 12:11:08 GMT [ISS.0028.0012I] WmXSLT: Startup service (wm.xslt.Admin:startup) 
+2020-12-11 12:11:08 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.mediatype:addSupport) 
+2020-12-11 12:11:08 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.logging:init) 
+2020-12-11 12:11:08 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.config:init) 
+2020-12-11 12:11:13 GMT [CLS.0010.0002I] WS-Stack repository located at /opt/softwareag/IntegrationServer/bin/../config/wss/ 
+2020-12-11 12:11:13 GMT [CLS.0010.0003I] WS-Stack configuration file located: /opt/softwareag/IntegrationServer/bin/../config/wss//axis2.xml 
+2020-12-11 12:11:13 GMT [CLS.0010.0175I] 
+ CloudStreams product is initialized. 
+ 
+2020-12-11 12:11:14 GMT [CLS.0010.0045I] CloudStreams Spring context loaded. 
+2020-12-11 12:11:14 GMT [CLS.0205.0021I] LifeCycleEventPublisher - startup method is called 
+2020-12-11 12:11:14 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.UIConfig:initUI) 
+2020-12-11 12:11:14 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (wm.cloudstreams.admin:startup) 
+2020-12-11 12:11:14 GMT [ISS.0028.0012I] WmISExtDC: Startup service (com.wm.isextdc.PkgInit:init) 
+2020-12-11 12:11:15 GMT [ISS.0028.0012I] WmConsul: Startup service (wm.server.consul.util:init) 
+2020-12-11 12:11:15 GMT [ISS.0028.0012I] WmAdmin: Startup service (wm.admin.controller:init) 
+2020-12-11 12:11:15 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:init) 
+2020-12-11 12:11:15 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:setACLs) 
+2020-12-11 12:11:15 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:createDefaultILiveTrustStoreAlias) 
+2020-12-11 12:11:15 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:loadTenantAccountInfo) 
+2020-12-11 12:11:15 GMT [ISS.0021.6005I] webMethods Cloud information was not loaded because the settings are not specified. 
+2020-12-11 12:11:15 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.connector:initConnectors) 
+2020-12-11 12:11:15 GMT [ISS.0028.0012I] WmART: Startup service (wm.art.admin:startup) 
+2020-12-11 12:11:15 GMT [ISS.0028.0012I] WmARTExtDC: Startup service (com.wm.artextdc.pkginit:init) 
+2020-12-11 12:11:15 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 9999 
+2020-12-11 12:11:15 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 5555 
+2020-12-11 12:11:15 GMT [ISS.0025.0013I] Cache Sweeper started 
+2020-12-11 12:11:15 GMT [ISS.0035.0003I] Log rotation interval set to 1440 minutes. 
+2020-12-11 12:11:15 GMT [ISS.0025.0057I] Reading system level information 
+2020-12-11 12:11:15 GMT [ISS.0014.0002I] Initialization completed in 54 seconds. 
+2020-12-11 12:11:15 GMT [ISS.0025.0016I] Config File Directory Saved 
+2020-12-11 12:11:16 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.RestVS to the SOAP Stack 
+2020-12-11 12:11:16 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.SoapVS to the SOAP Stack 
+2020-12-11 12:11:16 GMT [CLS.0010.0020W] Consumer file [/opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/consumers.xml] could not be found! Could not load Consumer information into CloudStreams. 
+2020-12-11 12:11:17 GMT [CLS.0010.0320I] Read 0 registered consumer names from /opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/registeredNames.xml 
+2020-12-11 12:11:33 GMT [ISS.0025.0001I] Integration Server 10.5.0.0 Build 84 
+2020-12-11 12:11:33 GMT [ISS.0001.0002C] Integration Server License key expired or invalid. 
+2020-12-11 12:11:33 GMT [ISS.0001.0004C] Integration Server will shutdown in 30 minutes, unless a valid license key is provided. 
+2020-12-11 12:11:33 GMT [ISS.0025.0006I] License Manager started 
+2020-12-11 12:11:33 GMT [ISS.0001.0008W] Clustering Functionality disabled due to license restrictions. 
+2020-12-11 12:11:33 GMT [ISS.0001.0008W] Publish / Subscribe Functionality disabled due to license restrictions. 
+2020-12-11 12:11:33 GMT [ISS.0001.0008W] Adapter Runtime Functionality disabled due to license restrictions. 
+2020-12-11 12:11:33 GMT [ISS.0001.0008W] Remote Invoke Functionality disabled due to license restrictions. 
+2020-12-11 12:11:33 GMT [ISS.0001.0008W] Guaranteed Delivery Functionality disabled due to license restrictions. 
+2020-12-11 12:11:33 GMT [ISS.0001.0008W] Security Auditing Functionality disabled due to license restrictions. 
+2020-12-11 12:11:33 GMT [ISS.0001.0008W] Enterprise Gateway Functionality disabled due to license restrictions. 
+2020-12-11 12:11:33 GMT [ISS.0001.0008W] Distributed Cache Functionality disabled due to license restrictions. 
+2020-12-11 12:11:33 GMT [ISS.0001.0008W] Microservices Functionality disabled due to license restrictions. 
+2020-12-11 12:11:34 GMT [ISS.0025.0049I] The JCE Unlimited Strength Jurisdiction Policy File was found 
+2020-12-11 12:11:34 GMT [ISS.0025.0041I] FIPS mode not initialized 
+2020-12-11 12:11:37 GMT [ISS.0025.0024I] JDBC Connection Manager started 
+2020-12-11 12:11:39 GMT [ISS.0095.0013I] Audit Logging initialized. 
+2020-12-11 12:11:41 GMT [ISS.0033.0168I] Cluster Node Name: wmcs105. 
+2020-12-11 12:11:42 GMT [ISS.0025.0017I] Repository Manager started 
+2020-12-11 12:11:43 GMT [ISS.0025.0021I] ACL Manager started 
+2020-12-11 12:11:43 GMT [ISS.0025.0008I] State Manager started 
+2020-12-11 12:11:43 GMT [ISS.0025.0010I] Service Manager started 
+2020-12-11 12:11:43 GMT [ISS.0025.0020I] Validation Processor started 
+2020-12-11 12:11:43 GMT [ISS.0025.0022I] Statistics Processor started 
+2020-12-11 12:11:43 GMT [ISS.0025.0018I] Invoke Manager started 
+2020-12-11 12:11:43 GMT [ISS.0025.0012I] Cache Manager started 
+2020-12-11 12:11:44 GMT [ISS.0134.0128I] JMS subsystem is starting. 
+2020-12-11 12:11:44 GMT [ISS.0134.0998I] DEFAULT_IS_JMS_CONNECTION cache enabled :: true 
+2020-12-11 12:11:44 GMT [ISS.0134.0998I] PE_NONTRANSACTIONAL_ALIAS cache enabled :: true 
+2020-12-11 12:11:44 GMT [ISS.0134.0000I] JMS subsystem started 
+2020-12-11 12:11:44 GMT [ISS.0173.0000I] Common Messaging subsystem started 
+2020-12-11 12:11:44 GMT [SCC.0121.0093I] XA Recovery Store initialized 
+2020-12-11 12:11:44 GMT [com.webmethods.fabric.agent.FabricAgent.null.load.startI] Loading registry config file /opt/softwareag/IntegrationServer/bin/../config/fabric-agent.xml 
+2020-12-11 12:11:44 GMT [com.webmethods.fabric.agent.FabricAgent.null.startI] Starting Fabric Agent 
+2020-12-11 12:11:45 GMT [ISS.0025.0055I] Lock Manager initialized 
+2020-12-11 12:11:49 GMT [ISS.0158.0000I] OData Server module is initialized. 
+2020-12-11 12:11:49 GMT [ISS.0048.9999I] Successfully initialized module "odata-server" by com.softwareag.is.odata.core.Init 
+2020-12-11 12:11:49 GMT [ISS.0048.9999I] Successfully initialized module "websocket-server" by com.softwareag.is.websocket.server.Init 
+2020-12-11 12:11:49 GMT [ISS.0048.9999I] Successfully initialized module "graphql-server" by com.softwareag.is.graphql.Init 
+2020-12-11 12:11:49 GMT [ISS.0139.9999I] Initializing ISKeyStoreManager using watt.server.homeDir:/opt/softwareag/IntegrationServer/bin/../config/security/keystore 
+2020-12-11 12:11:49 GMT [ISS.0139.9999I] ISKeyStoreManager initialized successfully. 
+2020-12-11 12:11:49 GMT [ISS.0025.0004I] Flow Service Manager started 
+2020-12-11 12:11:49 GMT [ISS.0025.0002I] Package Manager started 
+2020-12-11 12:11:49 GMT [ISS.0025.0011I] Package Replicator Manager started 
+2020-12-11 12:11:49 GMT [ISS.0028.0001I] Loading packages 
+2020-12-11 12:11:52 GMT [ISS.0028.0005I] Loading WmRoot package 
+2020-12-11 12:11:57 GMT [ISS.0028.0005I] Loading WmPublic package 
+2020-12-11 12:11:57 GMT [ISS.0028.0005I] Loading WmAdmin package 
+2020-12-11 12:11:57 GMT [ISS.0028.0005I] Loading WmJSONAPI package 
+2020-12-11 12:11:57 GMT [ISS.0028.0005I] Loading WmISExtDC package 
+2020-12-11 12:11:57 GMT [ISS.0028.0005I] Loading WmConsul package 
+2020-12-11 12:11:57 GMT [ISS.0028.0005I] Loading WmXSLT package 
+2020-12-11 12:11:57 GMT [ISS.0028.0005I] Loading WmCloud package 
+2020-12-11 12:12:04 GMT [ISS.0028.0005I] Loading WmFlatFile package 
+2020-12-11 12:12:09 GMT [ISS.0028.0005I] Loading WmCloudStreams package 
+2020-12-11 12:12:09 GMT [ISS.0028.0005I] Loading WmART package 
+2020-12-11 12:12:09 GMT [ISS.0028.0005I] Loading WmARTExtDC package 
+2020-12-11 12:12:11 GMT [ISS.0028.0005I] Loading Default package 
+2020-12-11 12:12:13 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.event:startEventAgentPort) 
+2020-12-11 12:12:13 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.email:init) 
+2020-12-11 12:12:13 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftp:init) 
+2020-12-11 12:12:13 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftps:init) 
+2020-12-11 12:12:13 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.http:init) 
+2020-12-11 12:12:13 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.websocket:init) 
+2020-12-11 12:12:13 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ns:syncToNamespace) 
+2020-12-11 12:12:13 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.remote:init) 
+2020-12-11 12:12:14 GMT [ISS.0014.0044I] Cron Daemon Pool thread pool increased by 10 threads, current maximum is 15. 
+2020-12-11 12:12:14 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.registry:init) 
+2020-12-11 12:12:14 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.proxy:init) 
+2020-12-11 12:12:14 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.schedule:init) 
+2020-12-11 12:12:14 GMT [ISS.0137.0000I] [SCHED] IS 10.5, scheduler version: 2 
+2020-12-11 12:12:14 GMT [ISS.0137.0000I] [SCHED] checking DB level 
+2020-12-11 12:12:14 GMT [ISS.0137.0000I] [SCHED] level: v10.5 
+2020-12-11 12:12:14 GMT [ISS.0137.0000I] [SCHED] number: 10005000000 
+2020-12-11 12:12:14 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.dispatcher:init) 
+2020-12-11 12:12:14 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tx:init) 
+2020-12-11 12:12:14 GMT [ISC.0063.0011I] Start 
+2020-12-11 12:12:14 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.soap:init) 
+2020-12-11 12:12:14 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tspace:init) 
+2020-12-11 12:12:14 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ws:init) 
+2020-12-11 12:12:14 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.security.keystore:createDefaultKeyStoreTrustStoreAliases) 
+2020-12-11 12:12:14 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ntlmclient:init) 
+2020-12-11 12:12:14 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.kerberossettings:init) 
+2020-12-11 12:12:14 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.admin:initHelpTopicURLMappings) 
+2020-12-11 12:12:14 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.sftpclient:updateCommonConfig) 
+2020-12-11 12:12:14 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.access:initAccountLocking) 
+2020-12-11 12:12:14 GMT [ISS.0028.0012I] WmPublic: Startup service (pub.storage:startup) 
+2020-12-11 12:12:14 GMT [ISS.0028.0012I] WmXSLT: Startup service (wm.xslt.Admin:startup) 
+2020-12-11 12:12:15 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.mediatype:addSupport) 
+2020-12-11 12:12:15 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.logging:init) 
+2020-12-11 12:12:15 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.config:init) 
+2020-12-11 12:12:19 GMT [CLS.0010.0002I] WS-Stack repository located at /opt/softwareag/IntegrationServer/bin/../config/wss/ 
+2020-12-11 12:12:19 GMT [CLS.0010.0003I] WS-Stack configuration file located: /opt/softwareag/IntegrationServer/bin/../config/wss//axis2.xml 
+2020-12-11 12:12:19 GMT [CLS.0010.0175I] 
+ CloudStreams product is initialized. 
+ 
+2020-12-11 12:12:20 GMT [CLS.0010.0045I] CloudStreams Spring context loaded. 
+2020-12-11 12:12:20 GMT [CLS.0205.0021I] LifeCycleEventPublisher - startup method is called 
+2020-12-11 12:12:20 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.UIConfig:initUI) 
+2020-12-11 12:12:20 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (wm.cloudstreams.admin:startup) 
+2020-12-11 12:12:20 GMT [ISS.0028.0012I] WmISExtDC: Startup service (com.wm.isextdc.PkgInit:init) 
+2020-12-11 12:12:20 GMT [ISS.0028.0012I] WmConsul: Startup service (wm.server.consul.util:init) 
+2020-12-11 12:12:20 GMT [ISS.0028.0012I] WmAdmin: Startup service (wm.admin.controller:init) 
+2020-12-11 12:12:20 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:init) 
+2020-12-11 12:12:20 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:setACLs) 
+2020-12-11 12:12:20 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:createDefaultILiveTrustStoreAlias) 
+2020-12-11 12:12:21 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:loadTenantAccountInfo) 
+2020-12-11 12:12:21 GMT [ISS.0021.6005I] webMethods Cloud information was not loaded because the settings are not specified. 
+2020-12-11 12:12:21 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.connector:initConnectors) 
+2020-12-11 12:12:21 GMT [ISS.0028.0012I] WmART: Startup service (wm.art.admin:startup) 
+2020-12-11 12:12:21 GMT [ISS.0028.0012I] WmARTExtDC: Startup service (com.wm.artextdc.pkginit:init) 
+2020-12-11 12:12:21 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 9999 
+2020-12-11 12:12:21 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 5555 
+2020-12-11 12:12:21 GMT [ISS.0025.0013I] Cache Sweeper started 
+2020-12-11 12:12:21 GMT [ISS.0035.0003I] Log rotation interval set to 1440 minutes. 
+2020-12-11 12:12:21 GMT [ISS.0025.0057I] Reading system level information 
+2020-12-11 12:12:21 GMT [ISS.0014.0002I] Initialization completed in 50 seconds. 
+2020-12-11 12:12:21 GMT [ISS.0025.0016I] Config File Directory Saved 
+2020-12-11 12:12:22 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.RestVS to the SOAP Stack 
+2020-12-11 12:12:22 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.SoapVS to the SOAP Stack 
+2020-12-11 12:12:22 GMT [CLS.0010.0020W] Consumer file [/opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/consumers.xml] could not be found! Could not load Consumer information into CloudStreams. 
+2020-12-11 12:12:22 GMT [CLS.0010.0320I] Read 0 registered consumer names from /opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/registeredNames.xml 
+2020-12-11 12:12:34 GMT [CLS.0203.0013W] No value defined in CCC cache for this key: currentInterval 
+2020-12-11 12:17:03 GMT [ISS.0025.0001I] Integration Server 10.5.0.0 Build 84 
+2020-12-11 12:17:03 GMT [ISS.0001.0002C] Integration Server License key expired or invalid. 
+2020-12-11 12:17:03 GMT [ISS.0001.0004C] Integration Server will shutdown in 30 minutes, unless a valid license key is provided. 
+2020-12-11 12:17:03 GMT [ISS.0025.0006I] License Manager started 
+2020-12-11 12:17:03 GMT [ISS.0001.0008W] Clustering Functionality disabled due to license restrictions. 
+2020-12-11 12:17:03 GMT [ISS.0001.0008W] Publish / Subscribe Functionality disabled due to license restrictions. 
+2020-12-11 12:17:03 GMT [ISS.0001.0008W] Adapter Runtime Functionality disabled due to license restrictions. 
+2020-12-11 12:17:03 GMT [ISS.0001.0008W] Remote Invoke Functionality disabled due to license restrictions. 
+2020-12-11 12:17:03 GMT [ISS.0001.0008W] Guaranteed Delivery Functionality disabled due to license restrictions. 
+2020-12-11 12:17:03 GMT [ISS.0001.0008W] Security Auditing Functionality disabled due to license restrictions. 
+2020-12-11 12:17:03 GMT [ISS.0001.0008W] Enterprise Gateway Functionality disabled due to license restrictions. 
+2020-12-11 12:17:03 GMT [ISS.0001.0008W] Distributed Cache Functionality disabled due to license restrictions. 
+2020-12-11 12:17:03 GMT [ISS.0001.0008W] Microservices Functionality disabled due to license restrictions. 
+2020-12-11 12:17:03 GMT [ISS.0025.0049I] The JCE Unlimited Strength Jurisdiction Policy File was found 
+2020-12-11 12:17:03 GMT [ISS.0025.0041I] FIPS mode not initialized 
+2020-12-11 12:17:05 GMT [ISS.0025.0024I] JDBC Connection Manager started 
+2020-12-11 12:17:07 GMT [ISS.0095.0013I] Audit Logging initialized. 
+2020-12-11 12:17:10 GMT [ISS.0033.0168I] Cluster Node Name: wmcs105. 
+2020-12-11 12:17:10 GMT [ISS.0025.0017I] Repository Manager started 
+2020-12-11 12:17:11 GMT [ISS.0025.0021I] ACL Manager started 
+2020-12-11 12:17:11 GMT [ISS.0025.0008I] State Manager started 
+2020-12-11 12:17:11 GMT [ISS.0025.0010I] Service Manager started 
+2020-12-11 12:17:11 GMT [ISS.0025.0020I] Validation Processor started 
+2020-12-11 12:17:11 GMT [ISS.0025.0022I] Statistics Processor started 
+2020-12-11 12:17:11 GMT [ISS.0025.0018I] Invoke Manager started 
+2020-12-11 12:17:11 GMT [ISS.0025.0012I] Cache Manager started 
+2020-12-11 12:17:12 GMT [ISS.0134.0128I] JMS subsystem is starting. 
+2020-12-11 12:17:12 GMT [ISS.0134.0998I] DEFAULT_IS_JMS_CONNECTION cache enabled :: true 
+2020-12-11 12:17:12 GMT [ISS.0134.0998I] PE_NONTRANSACTIONAL_ALIAS cache enabled :: true 
+2020-12-11 12:17:12 GMT [ISS.0134.0000I] JMS subsystem started 
+2020-12-11 12:17:12 GMT [ISS.0173.0000I] Common Messaging subsystem started 
+2020-12-11 12:17:12 GMT [SCC.0121.0093I] XA Recovery Store initialized 
+2020-12-11 12:17:13 GMT [com.webmethods.fabric.agent.FabricAgent.null.load.startI] Loading registry config file /opt/softwareag/IntegrationServer/bin/../config/fabric-agent.xml 
+2020-12-11 12:17:13 GMT [com.webmethods.fabric.agent.FabricAgent.null.startI] Starting Fabric Agent 
+2020-12-11 12:17:13 GMT [ISS.0025.0055I] Lock Manager initialized 
+2020-12-11 12:17:16 GMT [ISS.0158.0000I] OData Server module is initialized. 
+2020-12-11 12:17:16 GMT [ISS.0048.9999I] Successfully initialized module "odata-server" by com.softwareag.is.odata.core.Init 
+2020-12-11 12:17:16 GMT [ISS.0048.9999I] Successfully initialized module "websocket-server" by com.softwareag.is.websocket.server.Init 
+2020-12-11 12:17:16 GMT [ISS.0048.9999I] Successfully initialized module "graphql-server" by com.softwareag.is.graphql.Init 
+2020-12-11 12:17:16 GMT [ISS.0139.9999I] Initializing ISKeyStoreManager using watt.server.homeDir:/opt/softwareag/IntegrationServer/bin/../config/security/keystore 
+2020-12-11 12:17:16 GMT [ISS.0139.9999I] ISKeyStoreManager initialized successfully. 
+2020-12-11 12:17:17 GMT [ISS.0025.0004I] Flow Service Manager started 
+2020-12-11 12:17:17 GMT [ISS.0025.0002I] Package Manager started 
+2020-12-11 12:17:17 GMT [ISS.0025.0011I] Package Replicator Manager started 
+2020-12-11 12:17:17 GMT [ISS.0028.0001I] Loading packages 
+2020-12-11 12:17:20 GMT [ISS.0028.0005I] Loading WmRoot package 
+2020-12-11 12:17:24 GMT [ISS.0028.0005I] Loading WmPublic package 
+2020-12-11 12:17:25 GMT [ISS.0028.0005I] Loading WmISExtDC package 
+2020-12-11 12:17:25 GMT [ISS.0028.0005I] Loading WmJSONAPI package 
+2020-12-11 12:17:25 GMT [ISS.0028.0005I] Loading WmAdmin package 
+2020-12-11 12:17:25 GMT [ISS.0028.0005I] Loading WmXSLT package 
+2020-12-11 12:17:25 GMT [ISS.0028.0005I] Loading WmConsul package 
+2020-12-11 12:17:25 GMT [ISS.0028.0005I] Loading WmCloud package 
+2020-12-11 12:17:30 GMT [ISS.0028.0005I] Loading WmFlatFile package 
+2020-12-11 12:17:36 GMT [ISS.0028.0005I] Loading WmCloudStreams package 
+2020-12-11 12:17:36 GMT [ISS.0028.0005I] Loading WmART package 
+2020-12-11 12:17:36 GMT [ISS.0028.0005I] Loading WmARTExtDC package 
+2020-12-11 12:17:38 GMT [ISS.0028.0005I] Loading Default package 
+2020-12-11 12:17:40 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.event:startEventAgentPort) 
+2020-12-11 12:17:40 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.email:init) 
+2020-12-11 12:17:40 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftp:init) 
+2020-12-11 12:17:40 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftps:init) 
+2020-12-11 12:17:40 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.http:init) 
+2020-12-11 12:17:40 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.websocket:init) 
+2020-12-11 12:17:40 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ns:syncToNamespace) 
+2020-12-11 12:17:40 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.remote:init) 
+2020-12-11 12:17:40 GMT [ISS.0014.0044I] Cron Daemon Pool thread pool increased by 10 threads, current maximum is 15. 
+2020-12-11 12:17:40 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.registry:init) 
+2020-12-11 12:17:40 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.proxy:init) 
+2020-12-11 12:17:40 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.schedule:init) 
+2020-12-11 12:17:40 GMT [ISS.0137.0000I] [SCHED] IS 10.5, scheduler version: 2 
+2020-12-11 12:17:40 GMT [ISS.0137.0000I] [SCHED] checking DB level 
+2020-12-11 12:17:40 GMT [ISS.0137.0000I] [SCHED] level: v10.5 
+2020-12-11 12:17:40 GMT [ISS.0137.0000I] [SCHED] number: 10005000000 
+2020-12-11 12:17:41 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.dispatcher:init) 
+2020-12-11 12:17:41 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tx:init) 
+2020-12-11 12:17:41 GMT [ISC.0063.0011I] Start 
+2020-12-11 12:17:41 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.soap:init) 
+2020-12-11 12:17:41 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tspace:init) 
+2020-12-11 12:17:41 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ws:init) 
+2020-12-11 12:17:41 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.security.keystore:createDefaultKeyStoreTrustStoreAliases) 
+2020-12-11 12:17:41 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ntlmclient:init) 
+2020-12-11 12:17:41 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.kerberossettings:init) 
+2020-12-11 12:17:41 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.admin:initHelpTopicURLMappings) 
+2020-12-11 12:17:41 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.sftpclient:updateCommonConfig) 
+2020-12-11 12:17:41 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.access:initAccountLocking) 
+2020-12-11 12:17:41 GMT [ISS.0028.0012I] WmPublic: Startup service (pub.storage:startup) 
+2020-12-11 12:17:41 GMT [ISS.0028.0012I] WmXSLT: Startup service (wm.xslt.Admin:startup) 
+2020-12-11 12:17:41 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.mediatype:addSupport) 
+2020-12-11 12:17:41 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.logging:init) 
+2020-12-11 12:17:41 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.config:init) 
+2020-12-11 12:17:45 GMT [CLS.0010.0002I] WS-Stack repository located at /opt/softwareag/IntegrationServer/bin/../config/wss/ 
+2020-12-11 12:17:45 GMT [CLS.0010.0003I] WS-Stack configuration file located: /opt/softwareag/IntegrationServer/bin/../config/wss//axis2.xml 
+2020-12-11 12:17:45 GMT [CLS.0010.0175I] 
+ CloudStreams product is initialized. 
+ 
+2020-12-11 12:17:47 GMT [CLS.0010.0045I] CloudStreams Spring context loaded. 
+2020-12-11 12:17:47 GMT [CLS.0205.0021I] LifeCycleEventPublisher - startup method is called 
+2020-12-11 12:17:47 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.UIConfig:initUI) 
+2020-12-11 12:17:47 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (wm.cloudstreams.admin:startup) 
+2020-12-11 12:17:47 GMT [ISS.0028.0012I] WmISExtDC: Startup service (com.wm.isextdc.PkgInit:init) 
+2020-12-11 12:17:47 GMT [ISS.0028.0012I] WmConsul: Startup service (wm.server.consul.util:init) 
+2020-12-11 12:17:47 GMT [ISS.0028.0012I] WmAdmin: Startup service (wm.admin.controller:init) 
+2020-12-11 12:17:47 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:init) 
+2020-12-11 12:17:47 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:setACLs) 
+2020-12-11 12:17:47 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:createDefaultILiveTrustStoreAlias) 
+2020-12-11 12:17:47 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:loadTenantAccountInfo) 
+2020-12-11 12:17:47 GMT [ISS.0021.6005I] webMethods Cloud information was not loaded because the settings are not specified. 
+2020-12-11 12:17:47 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.connector:initConnectors) 
+2020-12-11 12:17:47 GMT [ISS.0028.0012I] WmART: Startup service (wm.art.admin:startup) 
+2020-12-11 12:17:47 GMT [ISS.0028.0012I] WmARTExtDC: Startup service (com.wm.artextdc.pkginit:init) 
+2020-12-11 12:17:48 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 9999 
+2020-12-11 12:17:48 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 5555 
+2020-12-11 12:17:48 GMT [ISS.0025.0013I] Cache Sweeper started 
+2020-12-11 12:17:48 GMT [ISS.0035.0003I] Log rotation interval set to 1440 minutes. 
+2020-12-11 12:17:48 GMT [ISS.0025.0057I] Reading system level information 
+2020-12-11 12:17:48 GMT [ISS.0014.0002I] Initialization completed in 47 seconds. 
+2020-12-11 12:17:48 GMT [ISS.0025.0016I] Config File Directory Saved 
+2020-12-11 12:17:49 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.RestVS to the SOAP Stack 
+2020-12-11 12:17:49 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.SoapVS to the SOAP Stack 
+2020-12-11 12:17:49 GMT [CLS.0010.0020W] Consumer file [/opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/consumers.xml] could not be found! Could not load Consumer information into CloudStreams. 
+2020-12-11 12:17:49 GMT [CLS.0010.0320I] Read 0 registered consumer names from /opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/registeredNames.xml 
+2020-12-11 12:18:00 GMT [CLS.0203.0013W] No value defined in CCC cache for this key: currentInterval 
+2020-12-11 12:26:11 GMT [ISS.0025.0001I] Integration Server 10.5.0.0 Build 84 
+2020-12-11 12:26:11 GMT [ISS.0001.0002C] Integration Server License key expired or invalid. 
+2020-12-11 12:26:11 GMT [ISS.0001.0004C] Integration Server will shutdown in 30 minutes, unless a valid license key is provided. 
+2020-12-11 12:26:11 GMT [ISS.0025.0006I] License Manager started 
+2020-12-11 12:26:11 GMT [ISS.0001.0008W] Clustering Functionality disabled due to license restrictions. 
+2020-12-11 12:26:11 GMT [ISS.0001.0008W] Publish / Subscribe Functionality disabled due to license restrictions. 
+2020-12-11 12:26:11 GMT [ISS.0001.0008W] Adapter Runtime Functionality disabled due to license restrictions. 
+2020-12-11 12:26:11 GMT [ISS.0001.0008W] Remote Invoke Functionality disabled due to license restrictions. 
+2020-12-11 12:26:11 GMT [ISS.0001.0008W] Guaranteed Delivery Functionality disabled due to license restrictions. 
+2020-12-11 12:26:11 GMT [ISS.0001.0008W] Security Auditing Functionality disabled due to license restrictions. 
+2020-12-11 12:26:11 GMT [ISS.0001.0008W] Enterprise Gateway Functionality disabled due to license restrictions. 
+2020-12-11 12:26:11 GMT [ISS.0001.0008W] Distributed Cache Functionality disabled due to license restrictions. 
+2020-12-11 12:26:11 GMT [ISS.0001.0008W] Microservices Functionality disabled due to license restrictions. 
+2020-12-11 12:26:11 GMT [ISS.0025.0049I] The JCE Unlimited Strength Jurisdiction Policy File was found 
+2020-12-11 12:26:11 GMT [ISS.0025.0041I] FIPS mode not initialized 
+2020-12-11 12:26:17 GMT [ISS.0096.0002W] JDBCConnectionManager: creating Embedded Pool Alias for Xref. 
+2020-12-11 12:26:17 GMT [ISS.0096.0002W] JDBCConnectionManager: creating Embedded Pool Alias for ISInternal. 
+2020-12-11 12:26:17 GMT [ISS.0096.0003I] JDBCConnectionManager: creating database object for embedded database: IS_USER_TASKS.LAST_UPDATED 
+2020-12-11 12:26:18 GMT [ISS.0025.0024I] JDBC Connection Manager started 
+2020-12-11 12:26:18 GMT [ISS.0095.0026W] The AuditConfig.xml file was not found and is being created. The audit logging system is using default settings. 
+2020-12-11 12:26:18 GMT [ISS.0095.0025W] The auditing.cnf file was not found and is being created. 
+2020-12-11 12:26:18 GMT [ISS.0095.0025W] The transient.sql.errors.xml file was not found and is being created. 
+2020-12-11 12:26:20 GMT [ISS.0095.0013I] Audit Logging initialized. 
+2020-12-11 12:26:21 GMT [ISS.0033.0168I] Cluster Node Name: wmcs105. 
+2020-12-11 12:26:22 GMT [ISS.0025.0017I] Repository Manager started 
+2020-12-11 12:26:23 GMT [ISS.0025.0021I] ACL Manager started 
+2020-12-11 12:26:23 GMT [ISS.0025.0008I] State Manager started 
+2020-12-11 12:26:23 GMT [ISS.0025.0010I] Service Manager started 
+2020-12-11 12:26:23 GMT [ISS.0025.0020I] Validation Processor started 
+2020-12-11 12:26:23 GMT [ISS.0025.0022I] Statistics Processor started 
+2020-12-11 12:26:23 GMT [ISS.0025.0018I] Invoke Manager started 
+2020-12-11 12:26:23 GMT [ISS.0025.0012I] Cache Manager started 
+2020-12-11 12:26:24 GMT [ISS.0134.0128I] JMS subsystem is starting. 
+2020-12-11 12:26:24 GMT [ISS.0134.0010I] JMS subsystem is not configured. The default JMS connection alias is being created. 
+2020-12-11 12:26:24 GMT [ISS.0134.0998I] [STARTUP.UM_DETECTOR] no realm found in install directory: /opt/softwareag/UniversalMessaging/server 
+2020-12-11 12:26:24 GMT [ISS.0135.0003I] JNDIConfigurationManager added new JNDI Properties file "DEFAULT_IS_JNDI_PROVIDER" [{java.naming.factory.initial=com.pcbsys.nirvana.nSpace.NirvanaContextFactory, java.naming.provider.url=nsp://localhost:9000, is.jndiAlias.description=system generated JNDI provider alias}] 
+2020-12-11 12:26:25 GMT [ISS.0134.0998I] DEFAULT_IS_JMS_CONNECTION cache enabled :: true 
+2020-12-11 12:26:25 GMT [ISS.0134.0000I] JMS subsystem started 
+2020-12-11 12:26:25 GMT [ISS.0134.0998I] PE_NONTRANSACTIONAL_ALIAS cache enabled :: true 
+2020-12-11 12:26:25 GMT [ISS.0173.0000I] Common Messaging subsystem started 
+2020-12-11 12:26:25 GMT [SCC.0121.0093I] XA Recovery Store initialized 
+2020-12-11 12:26:25 GMT [com.webmethods.fabric.agent.FabricAgent.null.load.startI] Loading registry config file /opt/softwareag/IntegrationServer/bin/../config/fabric-agent.xml 
+2020-12-11 12:26:25 GMT [com.webmethods.fabric.agent.FabricAgent.null.startI] Starting Fabric Agent 
+2020-12-11 12:26:25 GMT [ISS.0025.0055I] Lock Manager initialized 
+2020-12-11 12:26:29 GMT [ISS.0158.0000I] OData Server module is initialized. 
+2020-12-11 12:26:29 GMT [ISS.0048.9999I] Successfully initialized module "odata-server" by com.softwareag.is.odata.core.Init 
+2020-12-11 12:26:29 GMT [ISS.0048.9999I] Successfully initialized module "websocket-server" by com.softwareag.is.websocket.server.Init 
+2020-12-11 12:26:29 GMT [ISS.0048.9999I] Successfully initialized module "graphql-server" by com.softwareag.is.graphql.Init 
+2020-12-11 12:26:29 GMT [ISS.0139.9999I] Initializing ISKeyStoreManager using watt.server.homeDir:/opt/softwareag/IntegrationServer/bin/../config/security/keystore 
+2020-12-11 12:26:29 GMT [ISS.0139.9999I] ISKeyStoreManager initialized successfully. 
+2020-12-11 12:26:29 GMT [ISS.0025.0004I] Flow Service Manager started 
+2020-12-11 12:26:29 GMT [ISS.0025.0002I] Package Manager started 
+2020-12-11 12:26:29 GMT [ISS.0025.0011I] Package Replicator Manager started 
+2020-12-11 12:26:29 GMT [ISS.0028.0001I] Loading packages 
+2020-12-11 12:26:32 GMT [ISS.0028.0005I] Loading WmRoot package 
+2020-12-11 12:26:37 GMT [ISS.0028.0005I] Loading WmPublic package 
+2020-12-11 12:26:37 GMT [ISS.0028.0005I] Loading WmJSONAPI package 
+2020-12-11 12:26:37 GMT [ISS.0028.0005I] Loading WmAdmin package 
+2020-12-11 12:26:37 GMT [ISS.0028.0005I] Loading WmISExtDC package 
+2020-12-11 12:26:37 GMT [ISS.0028.0005I] Loading WmConsul package 
+2020-12-11 12:26:37 GMT [ISS.0028.0005I] Loading WmXSLT package 
+2020-12-11 12:26:37 GMT [ISS.0028.0005I] Loading WmCloud package 
+2020-12-11 12:26:42 GMT [ISS.0028.0005I] Loading WmFlatFile package 
+2020-12-11 12:26:49 GMT [ISS.0028.0005I] Loading WmCloudStreams package 
+2020-12-11 12:26:49 GMT [ISS.0028.0005I] Loading WmART package 
+2020-12-11 12:26:49 GMT [ISS.0028.0005I] Loading WmARTExtDC package 
+2020-12-11 12:26:51 GMT [ISS.0028.0005I] Loading Default package 
+2020-12-11 12:26:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.event:startEventAgentPort) 
+2020-12-11 12:26:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.email:init) 
+2020-12-11 12:26:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftp:init) 
+2020-12-11 12:26:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftps:init) 
+2020-12-11 12:26:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.http:init) 
+2020-12-11 12:26:54 GMT [ISS.0070.0008W] Failed to bootstrap listener HTTPListener@5555 
+2020-12-11 12:26:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.websocket:init) 
+2020-12-11 12:26:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ns:syncToNamespace) 
+2020-12-11 12:26:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.remote:init) 
+2020-12-11 12:26:54 GMT [ISP.0061.0009I] The default Remote Server Alias was created. 
+2020-12-11 12:26:54 GMT [ISS.0014.0044I] Cron Daemon Pool thread pool increased by 10 threads, current maximum is 15. 
+2020-12-11 12:26:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.registry:init) 
+2020-12-11 12:26:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.proxy:init) 
+2020-12-11 12:26:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.schedule:init) 
+2020-12-11 12:26:54 GMT [ISS.0137.0000I] [SCHED] IS 10.5, scheduler version: 2 
+2020-12-11 12:26:54 GMT [ISS.0137.0000I] [SCHED] checking DB level 
+2020-12-11 12:26:54 GMT [ISS.0137.0000I] [SCHED] level: v10.5 
+2020-12-11 12:26:54 GMT [ISS.0137.0000I] [SCHED] number: 10005000000 
+2020-12-11 12:26:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.dispatcher:init) 
+2020-12-11 12:26:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tx:init) 
+2020-12-11 12:26:54 GMT [ISC.0063.0011I] Start 
+2020-12-11 12:26:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.soap:init) 
+2020-12-11 12:26:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tspace:init) 
+2020-12-11 12:26:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ws:init) 
+2020-12-11 12:26:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.security.keystore:createDefaultKeyStoreTrustStoreAliases) 
+2020-12-11 12:26:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ntlmclient:init) 
+2020-12-11 12:26:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.kerberossettings:init) 
+2020-12-11 12:26:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.admin:initHelpTopicURLMappings) 
+2020-12-11 12:26:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.sftpclient:updateCommonConfig) 
+2020-12-11 12:26:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.access:initAccountLocking) 
+2020-12-11 12:26:55 GMT [ISS.0028.0012I] WmPublic: Startup service (pub.storage:startup) 
+2020-12-11 12:26:55 GMT [ISS.0028.0012I] WmXSLT: Startup service (wm.xslt.Admin:startup) 
+2020-12-11 12:26:55 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.mediatype:addSupport) 
+2020-12-11 12:26:55 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.logging:init) 
+2020-12-11 12:26:55 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.config:init) 
+2020-12-11 12:28:20 GMT [ISS.0025.0001I] Integration Server 10.5.0.0 Build 84 
+2020-12-11 12:28:20 GMT [ISS.0001.0002C] Integration Server License key expired or invalid. 
+2020-12-11 12:28:20 GMT [ISS.0001.0004C] Integration Server will shutdown in 30 minutes, unless a valid license key is provided. 
+2020-12-11 12:28:20 GMT [ISS.0025.0006I] License Manager started 
+2020-12-11 12:28:20 GMT [ISS.0001.0008W] Clustering Functionality disabled due to license restrictions. 
+2020-12-11 12:28:20 GMT [ISS.0001.0008W] Publish / Subscribe Functionality disabled due to license restrictions. 
+2020-12-11 12:28:20 GMT [ISS.0001.0008W] Adapter Runtime Functionality disabled due to license restrictions. 
+2020-12-11 12:28:20 GMT [ISS.0001.0008W] Remote Invoke Functionality disabled due to license restrictions. 
+2020-12-11 12:28:20 GMT [ISS.0001.0008W] Guaranteed Delivery Functionality disabled due to license restrictions. 
+2020-12-11 12:28:20 GMT [ISS.0001.0008W] Security Auditing Functionality disabled due to license restrictions. 
+2020-12-11 12:28:20 GMT [ISS.0001.0008W] Enterprise Gateway Functionality disabled due to license restrictions. 
+2020-12-11 12:28:20 GMT [ISS.0001.0008W] Distributed Cache Functionality disabled due to license restrictions. 
+2020-12-11 12:28:20 GMT [ISS.0001.0008W] Microservices Functionality disabled due to license restrictions. 
+2020-12-11 12:28:20 GMT [ISS.0025.0049I] The JCE Unlimited Strength Jurisdiction Policy File was found 
+2020-12-11 12:28:21 GMT [ISS.0025.0041I] FIPS mode not initialized 
+2020-12-11 12:28:23 GMT [ISS.0025.0024I] JDBC Connection Manager started 
+2020-12-11 12:28:25 GMT [ISS.0095.0013I] Audit Logging initialized. 
+2020-12-11 12:28:27 GMT [ISS.0033.0168I] Cluster Node Name: wmcs105. 
+2020-12-11 12:28:28 GMT [ISS.0025.0017I] Repository Manager started 
+2020-12-11 12:28:28 GMT [ISS.0025.0021I] ACL Manager started 
+2020-12-11 12:28:28 GMT [ISS.0025.0008I] State Manager started 
+2020-12-11 12:28:28 GMT [ISS.0025.0010I] Service Manager started 
+2020-12-11 12:28:28 GMT [ISS.0025.0020I] Validation Processor started 
+2020-12-11 12:28:28 GMT [ISS.0025.0022I] Statistics Processor started 
+2020-12-11 12:28:28 GMT [ISS.0025.0018I] Invoke Manager started 
+2020-12-11 12:28:28 GMT [ISS.0025.0012I] Cache Manager started 
+2020-12-11 12:28:29 GMT [ISS.0134.0128I] JMS subsystem is starting. 
+2020-12-11 12:28:30 GMT [ISS.0134.0998I] DEFAULT_IS_JMS_CONNECTION cache enabled :: true 
+2020-12-11 12:28:30 GMT [ISS.0134.0998I] PE_NONTRANSACTIONAL_ALIAS cache enabled :: true 
+2020-12-11 12:28:30 GMT [ISS.0134.0000I] JMS subsystem started 
+2020-12-11 12:28:30 GMT [ISS.0173.0000I] Common Messaging subsystem started 
+2020-12-11 12:28:30 GMT [SCC.0121.0093I] XA Recovery Store initialized 
+2020-12-11 12:28:30 GMT [com.webmethods.fabric.agent.FabricAgent.null.load.startI] Loading registry config file /opt/softwareag/IntegrationServer/bin/../config/fabric-agent.xml 
+2020-12-11 12:28:30 GMT [com.webmethods.fabric.agent.FabricAgent.null.startI] Starting Fabric Agent 
+2020-12-11 12:28:30 GMT [ISS.0025.0055I] Lock Manager initialized 
+2020-12-11 12:28:34 GMT [ISS.0158.0000I] OData Server module is initialized. 
+2020-12-11 12:28:34 GMT [ISS.0048.9999I] Successfully initialized module "odata-server" by com.softwareag.is.odata.core.Init 
+2020-12-11 12:28:34 GMT [ISS.0048.9999I] Successfully initialized module "websocket-server" by com.softwareag.is.websocket.server.Init 
+2020-12-11 12:28:34 GMT [ISS.0048.9999I] Successfully initialized module "graphql-server" by com.softwareag.is.graphql.Init 
+2020-12-11 12:28:34 GMT [ISS.0139.9999I] Initializing ISKeyStoreManager using watt.server.homeDir:/opt/softwareag/IntegrationServer/bin/../config/security/keystore 
+2020-12-11 12:28:34 GMT [ISS.0139.9999I] ISKeyStoreManager initialized successfully. 
+2020-12-11 12:28:34 GMT [ISS.0025.0004I] Flow Service Manager started 
+2020-12-11 12:28:34 GMT [ISS.0025.0002I] Package Manager started 
+2020-12-11 12:28:34 GMT [ISS.0025.0011I] Package Replicator Manager started 
+2020-12-11 12:28:34 GMT [ISS.0028.0001I] Loading packages 
+2020-12-11 12:28:37 GMT [ISS.0028.0005I] Loading WmRoot package 
+2020-12-11 12:28:42 GMT [ISS.0028.0005I] Loading WmPublic package 
+2020-12-11 12:28:42 GMT [ISS.0028.0005I] Loading WmXSLT package 
+2020-12-11 12:28:42 GMT [ISS.0028.0005I] Loading WmAdmin package 
+2020-12-11 12:28:42 GMT [ISS.0028.0005I] Loading WmConsul package 
+2020-12-11 12:28:42 GMT [ISS.0028.0005I] Loading WmISExtDC package 
+2020-12-11 12:28:42 GMT [ISS.0028.0005I] Loading WmJSONAPI package 
+2020-12-11 12:28:42 GMT [ISS.0028.0005I] Loading WmCloud package 
+2020-12-11 12:28:49 GMT [ISS.0028.0005I] Loading WmFlatFile package 
+2020-12-11 12:28:54 GMT [ISS.0028.0005I] Loading WmCloudStreams package 
+2020-12-11 12:28:54 GMT [ISS.0028.0005I] Loading WmART package 
+2020-12-11 12:28:54 GMT [ISS.0028.0005I] Loading WmARTExtDC package 
+2020-12-11 12:28:56 GMT [ISS.0028.0005I] Loading Default package 
+2020-12-11 12:28:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.event:startEventAgentPort) 
+2020-12-11 12:28:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.email:init) 
+2020-12-11 12:28:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftp:init) 
+2020-12-11 12:28:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftps:init) 
+2020-12-11 12:28:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.http:init) 
+2020-12-11 12:28:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.websocket:init) 
+2020-12-11 12:28:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ns:syncToNamespace) 
+2020-12-11 12:28:58 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.remote:init) 
+2020-12-11 12:28:59 GMT [ISS.0014.0044I] Cron Daemon Pool thread pool increased by 10 threads, current maximum is 15. 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.registry:init) 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.proxy:init) 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.schedule:init) 
+2020-12-11 12:28:59 GMT [ISS.0137.0000I] [SCHED] IS 10.5, scheduler version: 2 
+2020-12-11 12:28:59 GMT [ISS.0137.0000I] [SCHED] checking DB level 
+2020-12-11 12:28:59 GMT [ISS.0137.0000I] [SCHED] level: v10.5 
+2020-12-11 12:28:59 GMT [ISS.0137.0000I] [SCHED] number: 10005000000 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.dispatcher:init) 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tx:init) 
+2020-12-11 12:28:59 GMT [ISC.0063.0011I] Start 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.soap:init) 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tspace:init) 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ws:init) 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.security.keystore:createDefaultKeyStoreTrustStoreAliases) 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ntlmclient:init) 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.kerberossettings:init) 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.admin:initHelpTopicURLMappings) 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.sftpclient:updateCommonConfig) 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.access:initAccountLocking) 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmPublic: Startup service (pub.storage:startup) 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmXSLT: Startup service (wm.xslt.Admin:startup) 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.mediatype:addSupport) 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.logging:init) 
+2020-12-11 12:28:59 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.config:init) 
+2020-12-11 12:29:03 GMT [CLS.0010.0002I] WS-Stack repository located at /opt/softwareag/IntegrationServer/bin/../config/wss/ 
+2020-12-11 12:29:03 GMT [CLS.0010.0003I] WS-Stack configuration file located: /opt/softwareag/IntegrationServer/bin/../config/wss//axis2.xml 
+2020-12-11 12:29:04 GMT [CLS.0010.0175I] 
+ CloudStreams product is initialized. 
+ 
+2020-12-11 12:29:05 GMT [CLS.0010.0045I] CloudStreams Spring context loaded. 
+2020-12-11 12:29:05 GMT [CLS.0205.0021I] LifeCycleEventPublisher - startup method is called 
+2020-12-11 12:29:05 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.UIConfig:initUI) 
+2020-12-11 12:29:05 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (wm.cloudstreams.admin:startup) 
+2020-12-11 12:29:05 GMT [ISS.0028.0012I] WmISExtDC: Startup service (com.wm.isextdc.PkgInit:init) 
+2020-12-11 12:29:06 GMT [ISS.0028.0012I] WmConsul: Startup service (wm.server.consul.util:init) 
+2020-12-11 12:29:06 GMT [ISS.0028.0012I] WmAdmin: Startup service (wm.admin.controller:init) 
+2020-12-11 12:29:06 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:init) 
+2020-12-11 12:29:06 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:setACLs) 
+2020-12-11 12:29:06 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:createDefaultILiveTrustStoreAlias) 
+2020-12-11 12:29:06 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:loadTenantAccountInfo) 
+2020-12-11 12:29:06 GMT [ISS.0021.6005I] webMethods Cloud information was not loaded because the settings are not specified. 
+2020-12-11 12:29:06 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.connector:initConnectors) 
+2020-12-11 12:29:06 GMT [ISS.0028.0012I] WmART: Startup service (wm.art.admin:startup) 
+2020-12-11 12:29:06 GMT [ISS.0028.0012I] WmARTExtDC: Startup service (com.wm.artextdc.pkginit:init) 
+2020-12-11 12:29:06 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 9999 
+2020-12-11 12:29:06 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 5555 
+2020-12-11 12:29:06 GMT [ISS.0025.0013I] Cache Sweeper started 
+2020-12-11 12:29:06 GMT [ISS.0035.0003I] Log rotation interval set to 1440 minutes. 
+2020-12-11 12:29:06 GMT [ISS.0025.0057I] Reading system level information 
+2020-12-11 12:29:07 GMT [ISS.0014.0002I] Initialization completed in 49 seconds. 
+2020-12-11 12:29:07 GMT [ISS.0025.0016I] Config File Directory Saved 
+2020-12-11 12:29:07 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.RestVS to the SOAP Stack 
+2020-12-11 12:29:08 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.SoapVS to the SOAP Stack 
+2020-12-11 12:29:08 GMT [CLS.0010.0020W] Consumer file [/opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/consumers.xml] could not be found! Could not load Consumer information into CloudStreams. 
+2020-12-11 12:29:08 GMT [CLS.0010.0320I] Read 0 registered consumer names from /opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/registeredNames.xml 
+2020-12-11 12:29:18 GMT [CLS.0203.0013W] No value defined in CCC cache for this key: currentInterval 
+2020-12-11 12:30:56 GMT [ISS.0025.0001I] Integration Server 10.5.0.0 Build 84 
+2020-12-11 12:30:56 GMT [ISS.0001.0002C] Integration Server License key expired or invalid. 
+2020-12-11 12:30:56 GMT [ISS.0001.0004C] Integration Server will shutdown in 30 minutes, unless a valid license key is provided. 
+2020-12-11 12:30:56 GMT [ISS.0025.0006I] License Manager started 
+2020-12-11 12:30:56 GMT [ISS.0001.0008W] Clustering Functionality disabled due to license restrictions. 
+2020-12-11 12:30:56 GMT [ISS.0001.0008W] Publish / Subscribe Functionality disabled due to license restrictions. 
+2020-12-11 12:30:56 GMT [ISS.0001.0008W] Adapter Runtime Functionality disabled due to license restrictions. 
+2020-12-11 12:30:56 GMT [ISS.0001.0008W] Remote Invoke Functionality disabled due to license restrictions. 
+2020-12-11 12:30:56 GMT [ISS.0001.0008W] Guaranteed Delivery Functionality disabled due to license restrictions. 
+2020-12-11 12:30:56 GMT [ISS.0001.0008W] Security Auditing Functionality disabled due to license restrictions. 
+2020-12-11 12:30:56 GMT [ISS.0001.0008W] Enterprise Gateway Functionality disabled due to license restrictions. 
+2020-12-11 12:30:56 GMT [ISS.0001.0008W] Distributed Cache Functionality disabled due to license restrictions. 
+2020-12-11 12:30:56 GMT [ISS.0001.0008W] Microservices Functionality disabled due to license restrictions. 
+2020-12-11 12:30:56 GMT [ISS.0025.0049I] The JCE Unlimited Strength Jurisdiction Policy File was found 
+2020-12-11 12:30:57 GMT [ISS.0025.0041I] FIPS mode not initialized 
+2020-12-11 12:31:03 GMT [ISS.0096.0002W] JDBCConnectionManager: creating Embedded Pool Alias for Xref. 
+2020-12-11 12:31:03 GMT [ISS.0096.0002W] JDBCConnectionManager: creating Embedded Pool Alias for ISInternal. 
+2020-12-11 12:31:03 GMT [ISS.0096.0003I] JDBCConnectionManager: creating database object for embedded database: IS_USER_TASKS.LAST_UPDATED 
+2020-12-11 12:31:03 GMT [ISS.0025.0024I] JDBC Connection Manager started 
+2020-12-11 12:31:03 GMT [ISS.0095.0026W] The AuditConfig.xml file was not found and is being created. The audit logging system is using default settings. 
+2020-12-11 12:31:03 GMT [ISS.0095.0025W] The auditing.cnf file was not found and is being created. 
+2020-12-11 12:31:03 GMT [ISS.0095.0025W] The transient.sql.errors.xml file was not found and is being created. 
+2020-12-11 12:31:05 GMT [ISS.0095.0013I] Audit Logging initialized. 
+2020-12-11 12:31:07 GMT [ISS.0033.0168I] Cluster Node Name: wmcs105. 
+2020-12-11 12:31:07 GMT [ISS.0025.0017I] Repository Manager started 
+2020-12-11 12:31:08 GMT [ISS.0025.0021I] ACL Manager started 
+2020-12-11 12:31:08 GMT [ISS.0025.0008I] State Manager started 
+2020-12-11 12:31:08 GMT [ISS.0025.0010I] Service Manager started 
+2020-12-11 12:31:08 GMT [ISS.0025.0020I] Validation Processor started 
+2020-12-11 12:31:08 GMT [ISS.0025.0022I] Statistics Processor started 
+2020-12-11 12:31:08 GMT [ISS.0025.0018I] Invoke Manager started 
+2020-12-11 12:31:09 GMT [ISS.0025.0012I] Cache Manager started 
+2020-12-11 12:31:10 GMT [ISS.0134.0128I] JMS subsystem is starting. 
+2020-12-11 12:31:10 GMT [ISS.0134.0010I] JMS subsystem is not configured. The default JMS connection alias is being created. 
+2020-12-11 12:31:10 GMT [ISS.0134.0998I] [STARTUP.UM_DETECTOR] no realm found in install directory: /opt/softwareag/UniversalMessaging/server 
+2020-12-11 12:31:10 GMT [ISS.0135.0003I] JNDIConfigurationManager added new JNDI Properties file "DEFAULT_IS_JNDI_PROVIDER" [{java.naming.factory.initial=com.pcbsys.nirvana.nSpace.NirvanaContextFactory, java.naming.provider.url=nsp://localhost:9000, is.jndiAlias.description=system generated JNDI provider alias}] 
+2020-12-11 12:31:10 GMT [ISS.0134.0998I] DEFAULT_IS_JMS_CONNECTION cache enabled :: true 
+2020-12-11 12:31:10 GMT [ISS.0134.0000I] JMS subsystem started 
+2020-12-11 12:31:10 GMT [ISS.0134.0998I] PE_NONTRANSACTIONAL_ALIAS cache enabled :: true 
+2020-12-11 12:31:10 GMT [ISS.0173.0000I] Common Messaging subsystem started 
+2020-12-11 12:31:11 GMT [SCC.0121.0093I] XA Recovery Store initialized 
+2020-12-11 12:31:11 GMT [com.webmethods.fabric.agent.FabricAgent.null.load.startI] Loading registry config file /opt/softwareag/IntegrationServer/bin/../config/fabric-agent.xml 
+2020-12-11 12:31:11 GMT [com.webmethods.fabric.agent.FabricAgent.null.startI] Starting Fabric Agent 
+2020-12-11 12:31:11 GMT [ISS.0025.0055I] Lock Manager initialized 
+2020-12-11 12:31:15 GMT [ISS.0158.0000I] OData Server module is initialized. 
+2020-12-11 12:31:15 GMT [ISS.0048.9999I] Successfully initialized module "odata-server" by com.softwareag.is.odata.core.Init 
+2020-12-11 12:31:15 GMT [ISS.0048.9999I] Successfully initialized module "websocket-server" by com.softwareag.is.websocket.server.Init 
+2020-12-11 12:31:15 GMT [ISS.0048.9999I] Successfully initialized module "graphql-server" by com.softwareag.is.graphql.Init 
+2020-12-11 12:31:15 GMT [ISS.0139.9999I] Initializing ISKeyStoreManager using watt.server.homeDir:/opt/softwareag/IntegrationServer/bin/../config/security/keystore 
+2020-12-11 12:31:15 GMT [ISS.0139.9999I] ISKeyStoreManager initialized successfully. 
+2020-12-11 12:31:15 GMT [ISS.0025.0004I] Flow Service Manager started 
+2020-12-11 12:31:15 GMT [ISS.0025.0002I] Package Manager started 
+2020-12-11 12:31:15 GMT [ISS.0025.0011I] Package Replicator Manager started 
+2020-12-11 12:31:15 GMT [ISS.0028.0001I] Loading packages 
+2020-12-11 12:31:18 GMT [ISS.0028.0005I] Loading WmRoot package 
+2020-12-11 12:31:22 GMT [ISS.0028.0005I] Loading WmPublic package 
+2020-12-11 12:31:23 GMT [ISS.0028.0005I] Loading WmJSONAPI package 
+2020-12-11 12:31:23 GMT [ISS.0028.0005I] Loading WmAdmin package 
+2020-12-11 12:31:23 GMT [ISS.0028.0005I] Loading WmISExtDC package 
+2020-12-11 12:31:23 GMT [ISS.0028.0005I] Loading WmConsul package 
+2020-12-11 12:31:23 GMT [ISS.0028.0005I] Loading WmXSLT package 
+2020-12-11 12:31:23 GMT [ISS.0028.0005I] Loading WmCloud package 
+2020-12-11 12:31:32 GMT [ISS.0028.0005I] Loading WmFlatFile package 
+2020-12-11 12:31:34 GMT [ISS.0028.0005I] Loading WmCloudStreams package 
+2020-12-11 12:31:34 GMT [ISS.0028.0005I] Loading WmART package 
+2020-12-11 12:31:34 GMT [ISS.0028.0005I] Loading WmARTExtDC package 
+2020-12-11 12:31:36 GMT [ISS.0028.0005I] Loading Default package 
+2020-12-11 12:31:38 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.event:startEventAgentPort) 
+2020-12-11 12:31:38 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.email:init) 
+2020-12-11 12:31:38 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftp:init) 
+2020-12-11 12:31:38 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftps:init) 
+2020-12-11 12:31:38 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.http:init) 
+2020-12-11 12:31:38 GMT [ISS.0070.0008W] Failed to bootstrap listener HTTPListener@5555 
+2020-12-11 12:31:38 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.websocket:init) 
+2020-12-11 12:31:38 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ns:syncToNamespace) 
+2020-12-11 12:31:38 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.remote:init) 
+2020-12-11 12:31:39 GMT [ISP.0061.0009I] The default Remote Server Alias was created. 
+2020-12-11 12:31:39 GMT [ISS.0014.0044I] Cron Daemon Pool thread pool increased by 10 threads, current maximum is 15. 
+2020-12-11 12:31:39 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.registry:init) 
+2020-12-11 12:31:39 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.proxy:init) 
+2020-12-11 12:31:39 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.schedule:init) 
+2020-12-11 12:31:39 GMT [ISS.0137.0000I] [SCHED] IS 10.5, scheduler version: 2 
+2020-12-11 12:31:39 GMT [ISS.0137.0000I] [SCHED] checking DB level 
+2020-12-11 12:31:39 GMT [ISS.0137.0000I] [SCHED] level: v10.5 
+2020-12-11 12:31:39 GMT [ISS.0137.0000I] [SCHED] number: 10005000000 
+2020-12-11 12:31:39 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.dispatcher:init) 
+2020-12-11 12:31:39 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tx:init) 
+2020-12-11 12:31:39 GMT [ISC.0063.0011I] Start 
+2020-12-11 12:31:39 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.soap:init) 
+2020-12-11 12:31:39 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tspace:init) 
+2020-12-11 12:31:39 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ws:init) 
+2020-12-11 12:31:39 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.security.keystore:createDefaultKeyStoreTrustStoreAliases) 
+2020-12-11 12:31:40 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ntlmclient:init) 
+2020-12-11 12:31:40 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.kerberossettings:init) 
+2020-12-11 12:31:40 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.admin:initHelpTopicURLMappings) 
+2020-12-11 12:31:40 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.sftpclient:updateCommonConfig) 
+2020-12-11 12:31:40 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.access:initAccountLocking) 
+2020-12-11 12:31:40 GMT [ISS.0028.0012I] WmPublic: Startup service (pub.storage:startup) 
+2020-12-11 12:31:40 GMT [ISS.0028.0012I] WmXSLT: Startup service (wm.xslt.Admin:startup) 
+2020-12-11 12:31:40 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.mediatype:addSupport) 
+2020-12-11 12:31:40 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.logging:init) 
+2020-12-11 12:31:40 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.config:init) 
+2020-12-11 12:31:46 GMT [CLS.0010.0002I] WS-Stack repository located at /opt/softwareag/IntegrationServer/bin/../config/wss/ 
+2020-12-11 12:31:46 GMT [CLS.0010.0003I] WS-Stack configuration file located: /opt/softwareag/IntegrationServer/bin/../config/wss//axis2.xml 
+2020-12-11 12:31:46 GMT [CLS.0010.0175I] 
+ CloudStreams product is initialized. 
+ 
+2020-12-11 12:31:47 GMT [CLS.0010.0045I] CloudStreams Spring context loaded. 
+2020-12-11 12:31:47 GMT [CLS.0205.0021I] LifeCycleEventPublisher - startup method is called 
+2020-12-11 12:31:47 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.UIConfig:initUI) 
+2020-12-11 12:31:47 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (wm.cloudstreams.admin:startup) 
+2020-12-11 12:31:47 GMT [ISS.0028.0012I] WmISExtDC: Startup service (com.wm.isextdc.PkgInit:init) 
+2020-12-11 12:31:47 GMT [ISS.0028.0012I] WmConsul: Startup service (wm.server.consul.util:init) 
+2020-12-11 12:31:47 GMT [ISS.0028.0012I] WmAdmin: Startup service (wm.admin.controller:init) 
+2020-12-11 12:31:47 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:init) 
+2020-12-11 12:31:47 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:setACLs) 
+2020-12-11 12:31:47 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:createDefaultILiveTrustStoreAlias) 
+2020-12-11 12:31:47 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:loadTenantAccountInfo) 
+2020-12-11 12:31:48 GMT [ISS.0021.6005I] webMethods Cloud information was not loaded because the settings are not specified. 
+2020-12-11 12:31:48 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.connector:initConnectors) 
+2020-12-11 12:31:48 GMT [ISS.0028.0012I] WmART: Startup service (wm.art.admin:startup) 
+2020-12-11 12:31:48 GMT [ISS.0028.0012I] WmARTExtDC: Startup service (com.wm.artextdc.pkginit:init) 
+2020-12-11 12:31:48 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 9999 
+2020-12-11 12:31:48 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 5555 
+2020-12-11 12:31:48 GMT [ISS.0025.0013I] Cache Sweeper started 
+2020-12-11 12:31:48 GMT [ISS.0035.0003I] Log rotation interval set to 1440 minutes. 
+2020-12-11 12:31:48 GMT [ISS.0025.0057I] Reading system level information 
+2020-12-11 12:31:48 GMT [ISS.0014.0002I] Initialization completed in 55 seconds. 
+2020-12-11 12:31:48 GMT [ISS.0025.0016I] Config File Directory Saved 
+2020-12-11 12:31:49 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.RestVS to the SOAP Stack 
+2020-12-11 12:31:49 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.SoapVS to the SOAP Stack 
+2020-12-11 12:31:49 GMT [CLS.0010.0020W] Consumer file [/opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/consumers.xml] could not be found! Could not load Consumer information into CloudStreams. 
+2020-12-11 12:31:49 GMT [CLS.0010.0320I] Read 0 registered consumer names from /opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/registeredNames.xml 
+2020-12-11 12:32:00 GMT [CLS.0203.0013W] No value defined in CCC cache for this key: currentInterval 
+2020-12-11 12:32:39 GMT [ISS.0025.0001I] Integration Server 10.5.0.0 Build 84 
+2020-12-11 12:32:39 GMT [ISS.0001.0002C] Integration Server License key expired or invalid. 
+2020-12-11 12:32:39 GMT [ISS.0001.0004C] Integration Server will shutdown in 30 minutes, unless a valid license key is provided. 
+2020-12-11 12:32:39 GMT [ISS.0025.0006I] License Manager started 
+2020-12-11 12:32:39 GMT [ISS.0001.0008W] Clustering Functionality disabled due to license restrictions. 
+2020-12-11 12:32:39 GMT [ISS.0001.0008W] Publish / Subscribe Functionality disabled due to license restrictions. 
+2020-12-11 12:32:39 GMT [ISS.0001.0008W] Adapter Runtime Functionality disabled due to license restrictions. 
+2020-12-11 12:32:39 GMT [ISS.0001.0008W] Remote Invoke Functionality disabled due to license restrictions. 
+2020-12-11 12:32:39 GMT [ISS.0001.0008W] Guaranteed Delivery Functionality disabled due to license restrictions. 
+2020-12-11 12:32:39 GMT [ISS.0001.0008W] Security Auditing Functionality disabled due to license restrictions. 
+2020-12-11 12:32:39 GMT [ISS.0001.0008W] Enterprise Gateway Functionality disabled due to license restrictions. 
+2020-12-11 12:32:39 GMT [ISS.0001.0008W] Distributed Cache Functionality disabled due to license restrictions. 
+2020-12-11 12:32:39 GMT [ISS.0001.0008W] Microservices Functionality disabled due to license restrictions. 
+2020-12-11 12:32:39 GMT [ISS.0025.0049I] The JCE Unlimited Strength Jurisdiction Policy File was found 
+2020-12-11 12:32:39 GMT [ISS.0025.0041I] FIPS mode not initialized 
+2020-12-11 12:32:43 GMT [ISS.0025.0024I] JDBC Connection Manager started 
+2020-12-11 12:32:44 GMT [ISS.0095.0013I] Audit Logging initialized. 
+2020-12-11 12:32:47 GMT [ISS.0033.0168I] Cluster Node Name: wmcs105. 
+2020-12-11 12:32:48 GMT [ISS.0025.0017I] Repository Manager started 
+2020-12-11 12:32:49 GMT [ISS.0025.0021I] ACL Manager started 
+2020-12-11 12:32:49 GMT [ISS.0025.0008I] State Manager started 
+2020-12-11 12:32:49 GMT [ISS.0025.0010I] Service Manager started 
+2020-12-11 12:32:49 GMT [ISS.0025.0020I] Validation Processor started 
+2020-12-11 12:32:49 GMT [ISS.0025.0022I] Statistics Processor started 
+2020-12-11 12:32:49 GMT [ISS.0025.0018I] Invoke Manager started 
+2020-12-11 12:32:49 GMT [ISS.0025.0012I] Cache Manager started 
+2020-12-11 12:33:00 GMT [ISS.0025.0001I] Integration Server 10.5.0.0 Build 84 
+2020-12-11 12:33:00 GMT [ISS.0001.0002C] Integration Server License key expired or invalid. 
+2020-12-11 12:33:00 GMT [ISS.0001.0004C] Integration Server will shutdown in 30 minutes, unless a valid license key is provided. 
+2020-12-11 12:33:00 GMT [ISS.0025.0006I] License Manager started 
+2020-12-11 12:33:00 GMT [ISS.0001.0008W] Clustering Functionality disabled due to license restrictions. 
+2020-12-11 12:33:00 GMT [ISS.0001.0008W] Publish / Subscribe Functionality disabled due to license restrictions. 
+2020-12-11 12:33:00 GMT [ISS.0001.0008W] Adapter Runtime Functionality disabled due to license restrictions. 
+2020-12-11 12:33:00 GMT [ISS.0001.0008W] Remote Invoke Functionality disabled due to license restrictions. 
+2020-12-11 12:33:00 GMT [ISS.0001.0008W] Guaranteed Delivery Functionality disabled due to license restrictions. 
+2020-12-11 12:33:00 GMT [ISS.0001.0008W] Security Auditing Functionality disabled due to license restrictions. 
+2020-12-11 12:33:00 GMT [ISS.0001.0008W] Enterprise Gateway Functionality disabled due to license restrictions. 
+2020-12-11 12:33:00 GMT [ISS.0001.0008W] Distributed Cache Functionality disabled due to license restrictions. 
+2020-12-11 12:33:00 GMT [ISS.0001.0008W] Microservices Functionality disabled due to license restrictions. 
+2020-12-11 12:33:00 GMT [ISS.0025.0049I] The JCE Unlimited Strength Jurisdiction Policy File was found 
+2020-12-11 12:33:01 GMT [ISS.0025.0041I] FIPS mode not initialized 
+2020-12-11 12:33:03 GMT [ISS.0025.0024I] JDBC Connection Manager started 
+2020-12-11 12:33:05 GMT [ISS.0095.0013I] Audit Logging initialized. 
+2020-12-11 12:33:07 GMT [ISS.0033.0168I] Cluster Node Name: wmcs105. 
+2020-12-11 12:33:07 GMT [ISS.0025.0017I] Repository Manager started 
+2020-12-11 12:33:08 GMT [ISS.0025.0021I] ACL Manager started 
+2020-12-11 12:33:08 GMT [ISS.0025.0008I] State Manager started 
+2020-12-11 12:33:08 GMT [ISS.0025.0010I] Service Manager started 
+2020-12-11 12:33:08 GMT [ISS.0025.0020I] Validation Processor started 
+2020-12-11 12:33:08 GMT [ISS.0025.0022I] Statistics Processor started 
+2020-12-11 12:33:08 GMT [ISS.0025.0018I] Invoke Manager started 
+2020-12-11 12:33:08 GMT [ISS.0025.0012I] Cache Manager started 
+2020-12-11 12:33:08 GMT [ISS.0134.0128I] JMS subsystem is starting. 
+2020-12-11 12:33:09 GMT [ISS.0134.0998I] DEFAULT_IS_JMS_CONNECTION cache enabled :: true 
+2020-12-11 12:33:09 GMT [ISS.0134.0998I] PE_NONTRANSACTIONAL_ALIAS cache enabled :: true 
+2020-12-11 12:33:09 GMT [ISS.0134.0000I] JMS subsystem started 
+2020-12-11 12:33:09 GMT [ISS.0173.0000I] Common Messaging subsystem started 
+2020-12-11 12:33:09 GMT [SCC.0121.0093I] XA Recovery Store initialized 
+2020-12-11 12:33:09 GMT [com.webmethods.fabric.agent.FabricAgent.null.load.startI] Loading registry config file /opt/softwareag/IntegrationServer/bin/../config/fabric-agent.xml 
+2020-12-11 12:33:09 GMT [com.webmethods.fabric.agent.FabricAgent.null.startI] Starting Fabric Agent 
+2020-12-11 12:33:09 GMT [ISS.0025.0055I] Lock Manager initialized 
+2020-12-11 12:33:13 GMT [ISS.0158.0000I] OData Server module is initialized. 
+2020-12-11 12:33:13 GMT [ISS.0048.9999I] Successfully initialized module "odata-server" by com.softwareag.is.odata.core.Init 
+2020-12-11 12:33:13 GMT [ISS.0048.9999I] Successfully initialized module "websocket-server" by com.softwareag.is.websocket.server.Init 
+2020-12-11 12:33:13 GMT [ISS.0048.9999I] Successfully initialized module "graphql-server" by com.softwareag.is.graphql.Init 
+2020-12-11 12:33:14 GMT [ISS.0139.9999I] Initializing ISKeyStoreManager using watt.server.homeDir:/opt/softwareag/IntegrationServer/bin/../config/security/keystore 
+2020-12-11 12:33:14 GMT [ISS.0139.9999I] ISKeyStoreManager initialized successfully. 
+2020-12-11 12:33:14 GMT [ISS.0025.0004I] Flow Service Manager started 
+2020-12-11 12:33:14 GMT [ISS.0025.0002I] Package Manager started 
+2020-12-11 12:33:14 GMT [ISS.0025.0011I] Package Replicator Manager started 
+2020-12-11 12:33:14 GMT [ISS.0028.0001I] Loading packages 
+2020-12-11 12:33:17 GMT [ISS.0028.0005I] Loading WmRoot package 
+2020-12-11 12:33:21 GMT [ISS.0028.0005I] Loading WmPublic package 
+2020-12-11 12:33:21 GMT [ISS.0028.0005I] Loading WmAdmin package 
+2020-12-11 12:33:21 GMT [ISS.0028.0005I] Loading WmJSONAPI package 
+2020-12-11 12:33:21 GMT [ISS.0028.0005I] Loading WmISExtDC package 
+2020-12-11 12:33:21 GMT [ISS.0028.0005I] Loading WmConsul package 
+2020-12-11 12:33:22 GMT [ISS.0028.0005I] Loading WmXSLT package 
+2020-12-11 12:33:22 GMT [ISS.0028.0005I] Loading WmCloud package 
+2020-12-11 12:33:24 GMT [ISS.0028.0005I] Loading WmFlatFile package 
+2020-12-11 12:33:33 GMT [ISS.0028.0005I] Loading WmCloudStreams package 
+2020-12-11 12:33:33 GMT [ISS.0028.0005I] Loading WmART package 
+2020-12-11 12:33:33 GMT [ISS.0028.0005I] Loading WmARTExtDC package 
+2020-12-11 12:33:35 GMT [ISS.0028.0005I] Loading Default package 
+2020-12-11 12:33:37 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.event:startEventAgentPort) 
+2020-12-11 12:33:37 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.email:init) 
+2020-12-11 12:33:37 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftp:init) 
+2020-12-11 12:33:37 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftps:init) 
+2020-12-11 12:33:37 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.http:init) 
+2020-12-11 12:33:37 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.websocket:init) 
+2020-12-11 12:33:37 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ns:syncToNamespace) 
+2020-12-11 12:33:37 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.remote:init) 
+2020-12-11 12:33:37 GMT [ISS.0014.0044I] Cron Daemon Pool thread pool increased by 10 threads, current maximum is 15. 
+2020-12-11 12:33:37 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.registry:init) 
+2020-12-11 12:33:37 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.proxy:init) 
+2020-12-11 12:33:37 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.schedule:init) 
+2020-12-11 12:33:37 GMT [ISS.0137.0000I] [SCHED] IS 10.5, scheduler version: 2 
+2020-12-11 12:33:37 GMT [ISS.0137.0000I] [SCHED] checking DB level 
+2020-12-11 12:33:37 GMT [ISS.0137.0000I] [SCHED] level: v10.5 
+2020-12-11 12:33:37 GMT [ISS.0137.0000I] [SCHED] number: 10005000000 
+2020-12-11 12:33:37 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.dispatcher:init) 
+2020-12-11 12:33:37 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tx:init) 
+2020-12-11 12:33:37 GMT [ISC.0063.0011I] Start 
+2020-12-11 12:33:37 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.soap:init) 
+2020-12-11 12:33:38 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tspace:init) 
+2020-12-11 12:33:38 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ws:init) 
+2020-12-11 12:33:38 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.security.keystore:createDefaultKeyStoreTrustStoreAliases) 
+2020-12-11 12:33:38 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ntlmclient:init) 
+2020-12-11 12:33:38 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.kerberossettings:init) 
+2020-12-11 12:33:38 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.admin:initHelpTopicURLMappings) 
+2020-12-11 12:33:38 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.sftpclient:updateCommonConfig) 
+2020-12-11 12:33:38 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.access:initAccountLocking) 
+2020-12-11 12:33:38 GMT [ISS.0028.0012I] WmPublic: Startup service (pub.storage:startup) 
+2020-12-11 12:33:38 GMT [ISS.0028.0012I] WmXSLT: Startup service (wm.xslt.Admin:startup) 
+2020-12-11 12:33:38 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.mediatype:addSupport) 
+2020-12-11 12:33:38 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.logging:init) 
+2020-12-11 12:33:38 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.config:init) 
+2020-12-11 12:33:42 GMT [CLS.0010.0002I] WS-Stack repository located at /opt/softwareag/IntegrationServer/bin/../config/wss/ 
+2020-12-11 12:33:42 GMT [CLS.0010.0003I] WS-Stack configuration file located: /opt/softwareag/IntegrationServer/bin/../config/wss//axis2.xml 
+2020-12-11 12:33:42 GMT [CLS.0010.0175I] 
+ CloudStreams product is initialized. 
+ 
+2020-12-11 12:33:43 GMT [CLS.0010.0045I] CloudStreams Spring context loaded. 
+2020-12-11 12:33:43 GMT [CLS.0205.0021I] LifeCycleEventPublisher - startup method is called 
+2020-12-11 12:33:43 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.UIConfig:initUI) 
+2020-12-11 12:33:43 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (wm.cloudstreams.admin:startup) 
+2020-12-11 12:33:43 GMT [ISS.0028.0012I] WmISExtDC: Startup service (com.wm.isextdc.PkgInit:init) 
+2020-12-11 12:33:44 GMT [ISS.0028.0012I] WmConsul: Startup service (wm.server.consul.util:init) 
+2020-12-11 12:33:44 GMT [ISS.0028.0012I] WmAdmin: Startup service (wm.admin.controller:init) 
+2020-12-11 12:33:44 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:init) 
+2020-12-11 12:33:45 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:setACLs) 
+2020-12-11 12:33:45 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:createDefaultILiveTrustStoreAlias) 
+2020-12-11 12:33:45 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:loadTenantAccountInfo) 
+2020-12-11 12:33:45 GMT [ISS.0021.6005I] webMethods Cloud information was not loaded because the settings are not specified. 
+2020-12-11 12:33:45 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.connector:initConnectors) 
+2020-12-11 12:33:45 GMT [ISS.0028.0012I] WmART: Startup service (wm.art.admin:startup) 
+2020-12-11 12:33:45 GMT [ISS.0028.0012I] WmARTExtDC: Startup service (com.wm.artextdc.pkginit:init) 
+2020-12-11 12:33:45 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 9999 
+2020-12-11 12:33:45 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 5555 
+2020-12-11 12:33:45 GMT [ISS.0025.0013I] Cache Sweeper started 
+2020-12-11 12:33:45 GMT [ISS.0035.0003I] Log rotation interval set to 1440 minutes. 
+2020-12-11 12:33:45 GMT [ISS.0025.0057I] Reading system level information 
+2020-12-11 12:33:45 GMT [ISS.0014.0002I] Initialization completed in 47 seconds. 
+2020-12-11 12:33:45 GMT [ISS.0025.0016I] Config File Directory Saved 
+2020-12-11 12:33:47 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.RestVS to the SOAP Stack 
+2020-12-11 12:33:47 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.SoapVS to the SOAP Stack 
+2020-12-11 12:33:47 GMT [CLS.0010.0020W] Consumer file [/opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/consumers.xml] could not be found! Could not load Consumer information into CloudStreams. 
+2020-12-11 12:33:47 GMT [CLS.0010.0320I] Read 0 registered consumer names from /opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/registeredNames.xml 
+2020-12-11 12:33:57 GMT [CLS.0203.0013W] No value defined in CCC cache for this key: currentInterval 
+2020-12-11 13:03:00 GMT [ISS.0014.0005I] Shutting down server. No valid license key was found. 
+2020-12-11 13:03:00 GMT [ISS.0070.0029I] Stopping listeners from accepting new requests. 
+2020-12-11 13:03:00 GMT [ISS.0028.0015I] WmARTExtDC: Shutdown service (com.wm.artextdc.pkginit:shutdown) 
+2020-12-11 13:03:00 GMT [ISS.0028.0015I] WmART: Shutdown service (wm.art.admin:shutdown) 
+2020-12-11 13:03:00 GMT [ISS.0028.0015I] WmCloud: Shutdown service (wm.client.integrationlive.connector:releaseConnectors) 
+2020-12-11 13:03:00 GMT [ISS.0028.0015I] WmCloud: Shutdown service (wm.client.integrationlive.admin:deleteDefaultILiveTrustStoreAlias) 
+2020-12-11 13:03:00 GMT [ISS.0028.0015I] WmFlatFile: Shutdown service (wm.server.ff:shutdown) 
+2020-12-11 13:03:00 GMT [ISS.0028.0015I] WmISExtDC: Shutdown service (com.wm.isextdc.PkgInit:shutdown) 
+2020-12-11 13:03:00 GMT [ISS.0028.0015I] WmCloudStreams: Shutdown service (wm.cloudstreams.admin:shutdown) 
+2020-12-11 13:03:00 GMT [ISS.0028.0015I] WmCloudStreams: Shutdown service (cloudstreams.config:shutdown) 
+2020-12-11 13:03:00 GMT [CLS.0050.0106I] Undeployed Virtual Service WmCloudStreams.SoapVS successfully! 
+2020-12-11 13:03:00 GMT [CLS.0050.0106I] Undeployed Virtual Service WmCloudStreams.RestVS successfully! 
+2020-12-11 13:03:01 GMT [ISS.0028.0015I] WmJSONAPI: Shutdown service (wm.jsonapi.mediatype:removeSupport) 
+2020-12-11 13:03:01 GMT [ISS.0028.0015I] WmJSONAPI: Shutdown service (wm.jsonapi.logging:deRegister) 
+2020-12-11 13:03:01 GMT [ISS.0028.0015I] WmPublic: Shutdown service (pub.storage:shutdown) 
+2020-12-11 13:03:01 GMT [ISS.0028.0015I] WmPublic: Shutdown service (pub.sync:shutdown) 
+2020-12-11 13:03:01 GMT [ISS.0028.0015I] WmPublic: Shutdown service (pub.client.sftp:shutdown) 
+2020-12-11 13:03:01 GMT [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.net.http:shutdown) 
+2020-12-11 13:03:01 GMT [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.net.ftp:shutdown) 
+2020-12-11 13:03:01 GMT [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.net.email:shutdown) 
+2020-12-11 13:03:01 GMT [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.net.websocket:shutdown) 
+2020-12-11 13:03:01 GMT [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.tx:shutdown) 
+2020-12-11 13:03:01 GMT [ISC.0063.0013I] Shutdown 
+2020-12-11 13:03:01 GMT [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.schedule:shutdown) 
+2020-12-11 13:03:01 GMT [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.remote:shutdown) 
+2020-12-11 13:03:01 GMT [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.registry:shutdown) 
+2020-12-11 13:03:01 GMT [ISC.0042.0004I] Peak BigMemory usage: 0M 
+2020-12-11 13:03:02 GMT [ISS.0134.0001I] JMS subsystem shutdown completed 
+2020-12-11 13:03:02 GMT [ISS.0173.0001I] Common Messaging subsystem shutdown completed 
+2020-12-11 13:03:12 GMT [SCC.0121.0103I] XA Recovery Store shutdown completed. 
+2020-12-11 13:03:12 GMT [ISP.0046.0011I] Disabling HTTP Listener on port 9999 
+2020-12-11 13:03:12 GMT [ISP.0046.0011I] Disabling HTTP Listener on port 5555 
+2020-12-11 13:03:12 GMT [ISS.0014.0006I] Server shutdown completed. 
+2020-12-11 14:31:14 GMT [ISS.0025.0001I] Integration Server 10.5.0.0 Build 84 
+2020-12-11 14:31:14 GMT [ISS.0001.0002C] Integration Server License key expired or invalid. 
+2020-12-11 14:31:14 GMT [ISS.0001.0004C] Integration Server will shutdown in 30 minutes, unless a valid license key is provided. 
+2020-12-11 14:31:14 GMT [ISS.0025.0006I] License Manager started 
+2020-12-11 14:31:14 GMT [ISS.0001.0008W] Clustering Functionality disabled due to license restrictions. 
+2020-12-11 14:31:14 GMT [ISS.0001.0008W] Publish / Subscribe Functionality disabled due to license restrictions. 
+2020-12-11 14:31:14 GMT [ISS.0001.0008W] Adapter Runtime Functionality disabled due to license restrictions. 
+2020-12-11 14:31:14 GMT [ISS.0001.0008W] Remote Invoke Functionality disabled due to license restrictions. 
+2020-12-11 14:31:14 GMT [ISS.0001.0008W] Guaranteed Delivery Functionality disabled due to license restrictions. 
+2020-12-11 14:31:14 GMT [ISS.0001.0008W] Security Auditing Functionality disabled due to license restrictions. 
+2020-12-11 14:31:14 GMT [ISS.0001.0008W] Enterprise Gateway Functionality disabled due to license restrictions. 
+2020-12-11 14:31:14 GMT [ISS.0001.0008W] Distributed Cache Functionality disabled due to license restrictions. 
+2020-12-11 14:31:14 GMT [ISS.0001.0008W] Microservices Functionality disabled due to license restrictions. 
+2020-12-11 14:31:15 GMT [ISS.0025.0049I] The JCE Unlimited Strength Jurisdiction Policy File was found 
+2020-12-11 14:31:15 GMT [ISS.0025.0041I] FIPS mode not initialized 
+2020-12-11 14:31:17 GMT [ISS.0025.0024I] JDBC Connection Manager started 
+2020-12-11 14:31:19 GMT [ISS.0095.0013I] Audit Logging initialized. 
+2020-12-11 14:31:21 GMT [ISS.0033.0168I] Cluster Node Name: wmcs105. 
+2020-12-11 14:31:22 GMT [ISS.0025.0017I] Repository Manager started 
+2020-12-11 14:31:23 GMT [ISS.0025.0021I] ACL Manager started 
+2020-12-11 14:31:23 GMT [ISS.0025.0008I] State Manager started 
+2020-12-11 14:31:23 GMT [ISS.0025.0010I] Service Manager started 
+2020-12-11 14:31:23 GMT [ISS.0025.0020I] Validation Processor started 
+2020-12-11 14:31:23 GMT [ISS.0025.0022I] Statistics Processor started 
+2020-12-11 14:31:23 GMT [ISS.0025.0018I] Invoke Manager started 
+2020-12-11 14:31:23 GMT [ISS.0025.0012I] Cache Manager started 
+2020-12-11 14:31:23 GMT [ISS.0134.0128I] JMS subsystem is starting. 
+2020-12-11 14:31:24 GMT [ISS.0134.0998I] DEFAULT_IS_JMS_CONNECTION cache enabled :: true 
+2020-12-11 14:31:24 GMT [ISS.0134.0998I] PE_NONTRANSACTIONAL_ALIAS cache enabled :: true 
+2020-12-11 14:31:24 GMT [ISS.0134.0000I] JMS subsystem started 
+2020-12-11 14:31:24 GMT [ISS.0173.0000I] Common Messaging subsystem started 
+2020-12-11 14:31:24 GMT [SCC.0121.0093I] XA Recovery Store initialized 
+2020-12-11 14:31:24 GMT [com.webmethods.fabric.agent.FabricAgent.null.load.startI] Loading registry config file /opt/softwareag/IntegrationServer/bin/../config/fabric-agent.xml 
+2020-12-11 14:31:24 GMT [com.webmethods.fabric.agent.FabricAgent.null.startI] Starting Fabric Agent 
+2020-12-11 14:31:24 GMT [ISS.0025.0055I] Lock Manager initialized 
+2020-12-11 14:31:29 GMT [ISS.0158.0000I] OData Server module is initialized. 
+2020-12-11 14:31:29 GMT [ISS.0048.9999I] Successfully initialized module "odata-server" by com.softwareag.is.odata.core.Init 
+2020-12-11 14:31:29 GMT [ISS.0048.9999I] Successfully initialized module "websocket-server" by com.softwareag.is.websocket.server.Init 
+2020-12-11 14:31:29 GMT [ISS.0048.9999I] Successfully initialized module "graphql-server" by com.softwareag.is.graphql.Init 
+2020-12-11 14:31:29 GMT [ISS.0139.9999I] Initializing ISKeyStoreManager using watt.server.homeDir:/opt/softwareag/IntegrationServer/bin/../config/security/keystore 
+2020-12-11 14:31:29 GMT [ISS.0139.9999I] ISKeyStoreManager initialized successfully. 
+2020-12-11 14:31:30 GMT [ISS.0025.0004I] Flow Service Manager started 
+2020-12-11 14:31:30 GMT [ISS.0025.0002I] Package Manager started 
+2020-12-11 14:31:30 GMT [ISS.0025.0011I] Package Replicator Manager started 
+2020-12-11 14:31:30 GMT [ISS.0028.0001I] Loading packages 
+2020-12-11 14:31:32 GMT [ISS.0028.0005I] Loading WmRoot package 
+2020-12-11 14:31:37 GMT [ISS.0028.0005I] Loading WmPublic package 
+2020-12-11 14:31:37 GMT [ISS.0028.0005I] Loading WmJSONAPI package 
+2020-12-11 14:31:37 GMT [ISS.0028.0005I] Loading WmAdmin package 
+2020-12-11 14:31:37 GMT [ISS.0028.0005I] Loading WmXSLT package 
+2020-12-11 14:31:37 GMT [ISS.0028.0005I] Loading WmConsul package 
+2020-12-11 14:31:37 GMT [ISS.0028.0005I] Loading WmISExtDC package 
+2020-12-11 14:31:37 GMT [ISS.0028.0005I] Loading WmCloud package 
+2020-12-11 14:31:46 GMT [ISS.0028.0005I] Loading WmFlatFile package 
+2020-12-11 14:31:48 GMT [ISS.0028.0005I] Loading WmCloudStreams package 
+2020-12-11 14:31:48 GMT [ISS.0028.0005I] Loading WmART package 
+2020-12-11 14:31:49 GMT [ISS.0028.0005I] Loading WmARTExtDC package 
+2020-12-11 14:31:51 GMT [ISS.0028.0005I] Loading Default package 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.event:startEventAgentPort) 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.email:init) 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftp:init) 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftps:init) 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.http:init) 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.websocket:init) 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ns:syncToNamespace) 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.remote:init) 
+2020-12-11 14:31:53 GMT [ISS.0014.0044I] Cron Daemon Pool thread pool increased by 10 threads, current maximum is 15. 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.registry:init) 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.proxy:init) 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.schedule:init) 
+2020-12-11 14:31:53 GMT [ISS.0137.0000I] [SCHED] IS 10.5, scheduler version: 2 
+2020-12-11 14:31:53 GMT [ISS.0137.0000I] [SCHED] checking DB level 
+2020-12-11 14:31:53 GMT [ISS.0137.0000I] [SCHED] level: v10.5 
+2020-12-11 14:31:53 GMT [ISS.0137.0000I] [SCHED] number: 10005000000 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.dispatcher:init) 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tx:init) 
+2020-12-11 14:31:53 GMT [ISC.0063.0011I] Start 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.soap:init) 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tspace:init) 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ws:init) 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.security.keystore:createDefaultKeyStoreTrustStoreAliases) 
+2020-12-11 14:31:53 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ntlmclient:init) 
+2020-12-11 14:31:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.kerberossettings:init) 
+2020-12-11 14:31:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.admin:initHelpTopicURLMappings) 
+2020-12-11 14:31:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.sftpclient:updateCommonConfig) 
+2020-12-11 14:31:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.access:initAccountLocking) 
+2020-12-11 14:31:54 GMT [ISS.0028.0012I] WmPublic: Startup service (pub.storage:startup) 
+2020-12-11 14:31:54 GMT [ISS.0028.0012I] WmXSLT: Startup service (wm.xslt.Admin:startup) 
+2020-12-11 14:31:54 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.mediatype:addSupport) 
+2020-12-11 14:31:54 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.logging:init) 
+2020-12-11 14:31:54 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.config:init) 
+2020-12-11 14:31:58 GMT [CLS.0010.0002I] WS-Stack repository located at /opt/softwareag/IntegrationServer/bin/../config/wss/ 
+2020-12-11 14:31:58 GMT [CLS.0010.0003I] WS-Stack configuration file located: /opt/softwareag/IntegrationServer/bin/../config/wss//axis2.xml 
+2020-12-11 14:31:59 GMT [CLS.0010.0175I] 
+ CloudStreams product is initialized. 
+ 
+2020-12-11 14:31:59 GMT [CLS.0010.0045I] CloudStreams Spring context loaded. 
+2020-12-11 14:32:00 GMT [CLS.0205.0021I] LifeCycleEventPublisher - startup method is called 
+2020-12-11 14:32:00 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.UIConfig:initUI) 
+2020-12-11 14:32:00 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (wm.cloudstreams.admin:startup) 
+2020-12-11 14:32:00 GMT [ISS.0028.0012I] WmISExtDC: Startup service (com.wm.isextdc.PkgInit:init) 
+2020-12-11 14:32:00 GMT [ISS.0028.0012I] WmConsul: Startup service (wm.server.consul.util:init) 
+2020-12-11 14:32:00 GMT [ISS.0028.0012I] WmAdmin: Startup service (wm.admin.controller:init) 
+2020-12-11 14:32:00 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:init) 
+2020-12-11 14:32:00 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:setACLs) 
+2020-12-11 14:32:00 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:createDefaultILiveTrustStoreAlias) 
+2020-12-11 14:32:00 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:loadTenantAccountInfo) 
+2020-12-11 14:32:00 GMT [ISS.0021.6005I] webMethods Cloud information was not loaded because the settings are not specified. 
+2020-12-11 14:32:00 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.connector:initConnectors) 
+2020-12-11 14:32:00 GMT [ISS.0028.0012I] WmART: Startup service (wm.art.admin:startup) 
+2020-12-11 14:32:00 GMT [ISS.0028.0012I] WmARTExtDC: Startup service (com.wm.artextdc.pkginit:init) 
+2020-12-11 14:32:01 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 9999 
+2020-12-11 14:32:01 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 5555 
+2020-12-11 14:32:01 GMT [ISS.0025.0013I] Cache Sweeper started 
+2020-12-11 14:32:01 GMT [ISS.0035.0003I] Log rotation interval set to 1440 minutes. 
+2020-12-11 14:32:01 GMT [ISS.0025.0057I] Reading system level information 
+2020-12-11 14:32:01 GMT [ISS.0014.0002I] Initialization completed in 49 seconds. 
+2020-12-11 14:32:01 GMT [ISS.0025.0016I] Config File Directory Saved 
+2020-12-11 14:32:02 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.RestVS to the SOAP Stack 
+2020-12-11 14:32:02 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.SoapVS to the SOAP Stack 
+2020-12-11 14:32:02 GMT [CLS.0010.0020W] Consumer file [/opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/consumers.xml] could not be found! Could not load Consumer information into CloudStreams. 
+2020-12-11 14:32:02 GMT [CLS.0010.0320I] Read 0 registered consumer names from /opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/registeredNames.xml 
+2020-12-11 14:32:15 GMT [ISS.0025.0001I] Integration Server 10.5.0.0 Build 84 
+2020-12-11 14:32:15 GMT [ISS.0001.0002C] Integration Server License key expired or invalid. 
+2020-12-11 14:32:15 GMT [ISS.0001.0004C] Integration Server will shutdown in 30 minutes, unless a valid license key is provided. 
+2020-12-11 14:32:15 GMT [ISS.0025.0006I] License Manager started 
+2020-12-11 14:32:15 GMT [ISS.0001.0008W] Clustering Functionality disabled due to license restrictions. 
+2020-12-11 14:32:15 GMT [ISS.0001.0008W] Publish / Subscribe Functionality disabled due to license restrictions. 
+2020-12-11 14:32:15 GMT [ISS.0001.0008W] Adapter Runtime Functionality disabled due to license restrictions. 
+2020-12-11 14:32:15 GMT [ISS.0001.0008W] Remote Invoke Functionality disabled due to license restrictions. 
+2020-12-11 14:32:15 GMT [ISS.0001.0008W] Guaranteed Delivery Functionality disabled due to license restrictions. 
+2020-12-11 14:32:15 GMT [ISS.0001.0008W] Security Auditing Functionality disabled due to license restrictions. 
+2020-12-11 14:32:15 GMT [ISS.0001.0008W] Enterprise Gateway Functionality disabled due to license restrictions. 
+2020-12-11 14:32:15 GMT [ISS.0001.0008W] Distributed Cache Functionality disabled due to license restrictions. 
+2020-12-11 14:32:15 GMT [ISS.0001.0008W] Microservices Functionality disabled due to license restrictions. 
+2020-12-11 14:32:15 GMT [ISS.0025.0049I] The JCE Unlimited Strength Jurisdiction Policy File was found 
+2020-12-11 14:32:15 GMT [ISS.0025.0041I] FIPS mode not initialized 
+2020-12-11 14:32:18 GMT [ISS.0025.0024I] JDBC Connection Manager started 
+2020-12-11 14:32:19 GMT [ISS.0095.0013I] Audit Logging initialized. 
+2020-12-11 14:32:22 GMT [ISS.0033.0168I] Cluster Node Name: wmcs105. 
+2020-12-11 14:32:23 GMT [ISS.0025.0017I] Repository Manager started 
+2020-12-11 14:32:24 GMT [ISS.0025.0021I] ACL Manager started 
+2020-12-11 14:32:24 GMT [ISS.0025.0008I] State Manager started 
+2020-12-11 14:32:24 GMT [ISS.0025.0010I] Service Manager started 
+2020-12-11 14:32:24 GMT [ISS.0025.0020I] Validation Processor started 
+2020-12-11 14:32:24 GMT [ISS.0025.0022I] Statistics Processor started 
+2020-12-11 14:32:24 GMT [ISS.0025.0018I] Invoke Manager started 
+2020-12-11 14:32:24 GMT [ISS.0025.0012I] Cache Manager started 
+2020-12-11 14:32:25 GMT [ISS.0134.0128I] JMS subsystem is starting. 
+2020-12-11 14:32:25 GMT [ISS.0134.0998I] DEFAULT_IS_JMS_CONNECTION cache enabled :: true 
+2020-12-11 14:32:25 GMT [ISS.0134.0998I] PE_NONTRANSACTIONAL_ALIAS cache enabled :: true 
+2020-12-11 14:32:25 GMT [ISS.0134.0000I] JMS subsystem started 
+2020-12-11 14:32:25 GMT [ISS.0173.0000I] Common Messaging subsystem started 
+2020-12-11 14:32:26 GMT [SCC.0121.0093I] XA Recovery Store initialized 
+2020-12-11 14:32:26 GMT [com.webmethods.fabric.agent.FabricAgent.null.load.startI] Loading registry config file /opt/softwareag/IntegrationServer/bin/../config/fabric-agent.xml 
+2020-12-11 14:32:26 GMT [com.webmethods.fabric.agent.FabricAgent.null.startI] Starting Fabric Agent 
+2020-12-11 14:32:26 GMT [ISS.0025.0055I] Lock Manager initialized 
+2020-12-11 14:32:31 GMT [ISS.0158.0000I] OData Server module is initialized. 
+2020-12-11 14:32:31 GMT [ISS.0048.9999I] Successfully initialized module "odata-server" by com.softwareag.is.odata.core.Init 
+2020-12-11 14:32:31 GMT [ISS.0048.9999I] Successfully initialized module "websocket-server" by com.softwareag.is.websocket.server.Init 
+2020-12-11 14:32:31 GMT [ISS.0048.9999I] Successfully initialized module "graphql-server" by com.softwareag.is.graphql.Init 
+2020-12-11 14:32:31 GMT [ISS.0139.9999I] Initializing ISKeyStoreManager using watt.server.homeDir:/opt/softwareag/IntegrationServer/bin/../config/security/keystore 
+2020-12-11 14:32:31 GMT [ISS.0139.9999I] ISKeyStoreManager initialized successfully. 
+2020-12-11 14:32:31 GMT [ISS.0025.0004I] Flow Service Manager started 
+2020-12-11 14:32:31 GMT [ISS.0025.0002I] Package Manager started 
+2020-12-11 14:32:31 GMT [ISS.0025.0011I] Package Replicator Manager started 
+2020-12-11 14:32:31 GMT [ISS.0028.0001I] Loading packages 
+2020-12-11 14:32:34 GMT [ISS.0028.0005I] Loading WmRoot package 
+2020-12-11 14:32:39 GMT [ISS.0028.0005I] Loading WmPublic package 
+2020-12-11 14:32:39 GMT [ISS.0028.0005I] Loading WmAdmin package 
+2020-12-11 14:32:39 GMT [ISS.0028.0005I] Loading WmJSONAPI package 
+2020-12-11 14:32:39 GMT [ISS.0028.0005I] Loading WmISExtDC package 
+2020-12-11 14:32:39 GMT [ISS.0028.0005I] Loading WmConsul package 
+2020-12-11 14:32:39 GMT [ISS.0028.0005I] Loading WmCloud package 
+2020-12-11 14:32:39 GMT [ISS.0028.0005I] Loading WmXSLT package 
+2020-12-11 14:32:46 GMT [ISS.0028.0005I] Loading WmFlatFile package 
+2020-12-11 14:32:50 GMT [ISS.0028.0005I] Loading WmCloudStreams package 
+2020-12-11 14:32:50 GMT [ISS.0028.0005I] Loading WmART package 
+2020-12-11 14:32:50 GMT [ISS.0028.0005I] Loading WmARTExtDC package 
+2020-12-11 14:32:52 GMT [ISS.0028.0005I] Loading Default package 
+2020-12-11 14:32:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.event:startEventAgentPort) 
+2020-12-11 14:32:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.email:init) 
+2020-12-11 14:32:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftp:init) 
+2020-12-11 14:32:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftps:init) 
+2020-12-11 14:32:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.http:init) 
+2020-12-11 14:32:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.websocket:init) 
+2020-12-11 14:32:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ns:syncToNamespace) 
+2020-12-11 14:32:54 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.remote:init) 
+2020-12-11 14:32:55 GMT [ISS.0014.0044I] Cron Daemon Pool thread pool increased by 10 threads, current maximum is 15. 
+2020-12-11 14:32:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.registry:init) 
+2020-12-11 14:32:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.proxy:init) 
+2020-12-11 14:32:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.schedule:init) 
+2020-12-11 14:32:55 GMT [ISS.0137.0000I] [SCHED] IS 10.5, scheduler version: 2 
+2020-12-11 14:32:55 GMT [ISS.0137.0000I] [SCHED] checking DB level 
+2020-12-11 14:32:55 GMT [ISS.0137.0000I] [SCHED] level: v10.5 
+2020-12-11 14:32:55 GMT [ISS.0137.0000I] [SCHED] number: 10005000000 
+2020-12-11 14:32:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.dispatcher:init) 
+2020-12-11 14:32:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tx:init) 
+2020-12-11 14:32:55 GMT [ISC.0063.0011I] Start 
+2020-12-11 14:32:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.soap:init) 
+2020-12-11 14:32:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tspace:init) 
+2020-12-11 14:32:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ws:init) 
+2020-12-11 14:32:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.security.keystore:createDefaultKeyStoreTrustStoreAliases) 
+2020-12-11 14:32:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ntlmclient:init) 
+2020-12-11 14:32:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.kerberossettings:init) 
+2020-12-11 14:32:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.admin:initHelpTopicURLMappings) 
+2020-12-11 14:32:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.sftpclient:updateCommonConfig) 
+2020-12-11 14:32:55 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.access:initAccountLocking) 
+2020-12-11 14:32:56 GMT [ISS.0028.0012I] WmPublic: Startup service (pub.storage:startup) 
+2020-12-11 14:32:56 GMT [ISS.0028.0012I] WmXSLT: Startup service (wm.xslt.Admin:startup) 
+2020-12-11 14:32:56 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.mediatype:addSupport) 
+2020-12-11 14:32:56 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.logging:init) 
+2020-12-11 14:32:56 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.config:init) 
+2020-12-11 14:33:00 GMT [CLS.0010.0002I] WS-Stack repository located at /opt/softwareag/IntegrationServer/bin/../config/wss/ 
+2020-12-11 14:33:00 GMT [CLS.0010.0003I] WS-Stack configuration file located: /opt/softwareag/IntegrationServer/bin/../config/wss//axis2.xml 
+2020-12-11 14:33:00 GMT [CLS.0010.0175I] 
+ CloudStreams product is initialized. 
+ 
+2020-12-11 14:33:02 GMT [CLS.0010.0045I] CloudStreams Spring context loaded. 
+2020-12-11 14:33:02 GMT [CLS.0205.0021I] LifeCycleEventPublisher - startup method is called 
+2020-12-11 14:33:02 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.UIConfig:initUI) 
+2020-12-11 14:33:02 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (wm.cloudstreams.admin:startup) 
+2020-12-11 14:33:02 GMT [ISS.0028.0012I] WmISExtDC: Startup service (com.wm.isextdc.PkgInit:init) 
+2020-12-11 14:33:02 GMT [ISS.0028.0012I] WmConsul: Startup service (wm.server.consul.util:init) 
+2020-12-11 14:33:02 GMT [ISS.0028.0012I] WmAdmin: Startup service (wm.admin.controller:init) 
+2020-12-11 14:33:02 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:init) 
+2020-12-11 14:33:02 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:setACLs) 
+2020-12-11 14:33:02 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:createDefaultILiveTrustStoreAlias) 
+2020-12-11 14:33:02 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:loadTenantAccountInfo) 
+2020-12-11 14:33:02 GMT [ISS.0021.6005I] webMethods Cloud information was not loaded because the settings are not specified. 
+2020-12-11 14:33:03 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.connector:initConnectors) 
+2020-12-11 14:33:03 GMT [ISS.0028.0012I] WmART: Startup service (wm.art.admin:startup) 
+2020-12-11 14:33:03 GMT [ISS.0028.0012I] WmARTExtDC: Startup service (com.wm.artextdc.pkginit:init) 
+2020-12-11 14:33:03 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 9999 
+2020-12-11 14:33:03 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 5555 
+2020-12-11 14:33:03 GMT [ISS.0025.0013I] Cache Sweeper started 
+2020-12-11 14:33:03 GMT [ISS.0035.0003I] Log rotation interval set to 1440 minutes. 
+2020-12-11 14:33:03 GMT [ISS.0025.0057I] Reading system level information 
+2020-12-11 14:33:03 GMT [ISS.0014.0002I] Initialization completed in 51 seconds. 
+2020-12-11 14:33:03 GMT [ISS.0025.0016I] Config File Directory Saved 
+2020-12-11 14:33:04 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.RestVS to the SOAP Stack 
+2020-12-11 14:33:05 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.SoapVS to the SOAP Stack 
+2020-12-11 14:33:05 GMT [CLS.0010.0020W] Consumer file [/opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/consumers.xml] could not be found! Could not load Consumer information into CloudStreams. 
+2020-12-11 14:33:05 GMT [CLS.0010.0320I] Read 0 registered consumer names from /opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/registeredNames.xml 
+2020-12-11 14:33:15 GMT [CLS.0203.0013W] No value defined in CCC cache for this key: currentInterval 
+2020-12-11 15:01:40 GMT [ISS.0025.0001I] Integration Server 10.5.0.0 Build 84 
+2020-12-11 15:01:40 GMT [ISS.0001.0002C] Integration Server License key expired or invalid. 
+2020-12-11 15:01:40 GMT [ISS.0001.0004C] Integration Server will shutdown in 30 minutes, unless a valid license key is provided. 
+2020-12-11 15:01:40 GMT [ISS.0025.0006I] License Manager started 
+2020-12-11 15:01:40 GMT [ISS.0001.0008W] Clustering Functionality disabled due to license restrictions. 
+2020-12-11 15:01:40 GMT [ISS.0001.0008W] Publish / Subscribe Functionality disabled due to license restrictions. 
+2020-12-11 15:01:40 GMT [ISS.0001.0008W] Adapter Runtime Functionality disabled due to license restrictions. 
+2020-12-11 15:01:40 GMT [ISS.0001.0008W] Remote Invoke Functionality disabled due to license restrictions. 
+2020-12-11 15:01:40 GMT [ISS.0001.0008W] Guaranteed Delivery Functionality disabled due to license restrictions. 
+2020-12-11 15:01:40 GMT [ISS.0001.0008W] Security Auditing Functionality disabled due to license restrictions. 
+2020-12-11 15:01:40 GMT [ISS.0001.0008W] Enterprise Gateway Functionality disabled due to license restrictions. 
+2020-12-11 15:01:40 GMT [ISS.0001.0008W] Distributed Cache Functionality disabled due to license restrictions. 
+2020-12-11 15:01:40 GMT [ISS.0001.0008W] Microservices Functionality disabled due to license restrictions. 
+2020-12-11 15:01:40 GMT [ISS.0025.0049I] The JCE Unlimited Strength Jurisdiction Policy File was found 
+2020-12-11 15:01:41 GMT [ISS.0025.0041I] FIPS mode not initialized 
+2020-12-11 15:01:47 GMT [ISS.0096.0002W] JDBCConnectionManager: creating Embedded Pool Alias for Xref. 
+2020-12-11 15:01:47 GMT [ISS.0096.0002W] JDBCConnectionManager: creating Embedded Pool Alias for ISInternal. 
+2020-12-11 15:01:47 GMT [ISS.0096.0003I] JDBCConnectionManager: creating database object for embedded database: IS_USER_TASKS.LAST_UPDATED 
+2020-12-11 15:01:47 GMT [ISS.0025.0024I] JDBC Connection Manager started 
+2020-12-11 15:01:47 GMT [ISS.0095.0026W] The AuditConfig.xml file was not found and is being created. The audit logging system is using default settings. 
+2020-12-11 15:01:47 GMT [ISS.0095.0025W] The auditing.cnf file was not found and is being created. 
+2020-12-11 15:01:47 GMT [ISS.0095.0025W] The transient.sql.errors.xml file was not found and is being created. 
+2020-12-11 15:01:49 GMT [ISS.0095.0013I] Audit Logging initialized. 
+2020-12-11 15:01:50 GMT [ISS.0033.0168I] Cluster Node Name: wmcs105. 
+2020-12-11 15:01:51 GMT [ISS.0025.0017I] Repository Manager started 
+2020-12-11 15:01:52 GMT [ISS.0025.0021I] ACL Manager started 
+2020-12-11 15:01:52 GMT [ISS.0025.0008I] State Manager started 
+2020-12-11 15:01:52 GMT [ISS.0025.0010I] Service Manager started 
+2020-12-11 15:01:52 GMT [ISS.0025.0020I] Validation Processor started 
+2020-12-11 15:01:52 GMT [ISS.0025.0022I] Statistics Processor started 
+2020-12-11 15:01:52 GMT [ISS.0025.0018I] Invoke Manager started 
+2020-12-11 15:01:52 GMT [ISS.0025.0012I] Cache Manager started 
+2020-12-11 15:01:53 GMT [ISS.0134.0128I] JMS subsystem is starting. 
+2020-12-11 15:01:53 GMT [ISS.0134.0010I] JMS subsystem is not configured. The default JMS connection alias is being created. 
+2020-12-11 15:01:53 GMT [ISS.0134.0998I] [STARTUP.UM_DETECTOR] no realm found in install directory: /opt/softwareag/UniversalMessaging/server 
+2020-12-11 15:01:53 GMT [ISS.0135.0003I] JNDIConfigurationManager added new JNDI Properties file "DEFAULT_IS_JNDI_PROVIDER" [{java.naming.factory.initial=com.pcbsys.nirvana.nSpace.NirvanaContextFactory, java.naming.provider.url=nsp://localhost:9000, is.jndiAlias.description=system generated JNDI provider alias}] 
+2020-12-11 15:01:53 GMT [ISS.0134.0998I] DEFAULT_IS_JMS_CONNECTION cache enabled :: true 
+2020-12-11 15:01:53 GMT [ISS.0134.0000I] JMS subsystem started 
+2020-12-11 15:01:53 GMT [ISS.0134.0998I] PE_NONTRANSACTIONAL_ALIAS cache enabled :: true 
+2020-12-11 15:01:54 GMT [ISS.0173.0000I] Common Messaging subsystem started 
+2020-12-11 15:01:54 GMT [SCC.0121.0093I] XA Recovery Store initialized 
+2020-12-11 15:01:54 GMT [com.webmethods.fabric.agent.FabricAgent.null.load.startI] Loading registry config file /opt/softwareag/IntegrationServer/bin/../config/fabric-agent.xml 
+2020-12-11 15:01:54 GMT [com.webmethods.fabric.agent.FabricAgent.null.startI] Starting Fabric Agent 
+2020-12-11 15:01:54 GMT [ISS.0025.0055I] Lock Manager initialized 
+2020-12-11 15:01:59 GMT [ISS.0158.0000I] OData Server module is initialized. 
+2020-12-11 15:01:59 GMT [ISS.0048.9999I] Successfully initialized module "odata-server" by com.softwareag.is.odata.core.Init 
+2020-12-11 15:01:59 GMT [ISS.0048.9999I] Successfully initialized module "websocket-server" by com.softwareag.is.websocket.server.Init 
+2020-12-11 15:01:59 GMT [ISS.0048.9999I] Successfully initialized module "graphql-server" by com.softwareag.is.graphql.Init 
+2020-12-11 15:01:59 GMT [ISS.0139.9999I] Initializing ISKeyStoreManager using watt.server.homeDir:/opt/softwareag/IntegrationServer/bin/../config/security/keystore 
+2020-12-11 15:01:59 GMT [ISS.0139.9999I] ISKeyStoreManager initialized successfully. 
+2020-12-11 15:01:59 GMT [ISS.0025.0004I] Flow Service Manager started 
+2020-12-11 15:01:59 GMT [ISS.0025.0002I] Package Manager started 
+2020-12-11 15:01:59 GMT [ISS.0025.0011I] Package Replicator Manager started 
+2020-12-11 15:01:59 GMT [ISS.0028.0001I] Loading packages 
+2020-12-11 15:02:01 GMT [ISS.0028.0005I] Loading WmRoot package 
+2020-12-11 15:02:06 GMT [ISS.0028.0005I] Loading WmPublic package 
+2020-12-11 15:02:07 GMT [ISS.0028.0005I] Loading WmJSONAPI package 
+2020-12-11 15:02:07 GMT [ISS.0028.0005I] Loading WmISExtDC package 
+2020-12-11 15:02:07 GMT [ISS.0028.0005I] Loading WmXSLT package 
+2020-12-11 15:02:18 GMT [ISS.0028.0005I] Loading WmCloudStreams package 
+2020-12-11 15:02:18 GMT [ISS.0028.0005I] Loading WmAdmin package 
+2020-12-11 15:02:18 GMT [ISS.0028.0005I] Loading WmConsul package 
+2020-12-11 15:02:18 GMT [ISS.0028.0005I] Loading WmCloud package 
+2020-12-11 15:02:19 GMT [ISS.0028.0005I] Loading WmCloudStreamsExt package 
+2020-12-11 15:02:19 GMT [ISS.0028.0005I] Loading WmFlatFile package 
+2020-12-11 15:02:19 GMT [ISS.0028.0005I] Loading WmART package 
+2020-12-11 15:02:19 GMT [ISS.0028.0005I] Loading WmARTExtDC package 
+2020-12-11 15:02:21 GMT [ISS.0028.0005I] Loading Default package 
+2020-12-11 15:02:23 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.event:startEventAgentPort) 
+2020-12-11 15:02:23 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.email:init) 
+2020-12-11 15:02:23 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftp:init) 
+2020-12-11 15:02:23 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftps:init) 
+2020-12-11 15:02:23 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.http:init) 
+2020-12-11 15:02:24 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.websocket:init) 
+2020-12-11 15:02:24 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ns:syncToNamespace) 
+2020-12-11 15:02:24 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.remote:init) 
+2020-12-11 15:02:24 GMT [ISP.0061.0009I] The default Remote Server Alias was created. 
+2020-12-11 15:02:24 GMT [ISS.0014.0044I] Cron Daemon Pool thread pool increased by 10 threads, current maximum is 15. 
+2020-12-11 15:02:24 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.registry:init) 
+2020-12-11 15:02:24 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.proxy:init) 
+2020-12-11 15:02:24 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.schedule:init) 
+2020-12-11 15:02:25 GMT [ISS.0137.0000I] [SCHED] IS 10.5, scheduler version: 2 
+2020-12-11 15:02:25 GMT [ISS.0137.0000I] [SCHED] checking DB level 
+2020-12-11 15:02:25 GMT [ISS.0137.0000I] [SCHED] level: v10.5 
+2020-12-11 15:02:25 GMT [ISS.0137.0000I] [SCHED] number: 10005000000 
+2020-12-11 15:02:25 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.dispatcher:init) 
+2020-12-11 15:02:25 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tx:init) 
+2020-12-11 15:02:25 GMT [ISC.0063.0011I] Start 
+2020-12-11 15:02:25 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.soap:init) 
+2020-12-11 15:02:25 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.tspace:init) 
+2020-12-11 15:02:25 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ws:init) 
+2020-12-11 15:02:25 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.security.keystore:createDefaultKeyStoreTrustStoreAliases) 
+2020-12-11 15:02:25 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.ntlmclient:init) 
+2020-12-11 15:02:25 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.kerberossettings:init) 
+2020-12-11 15:02:25 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.admin:initHelpTopicURLMappings) 
+2020-12-11 15:02:25 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.sftpclient:updateCommonConfig) 
+2020-12-11 15:02:25 GMT [ISS.0028.0012I] WmRoot: Startup service (wm.server.access:initAccountLocking) 
+2020-12-11 15:02:25 GMT [ISS.0028.0012I] WmPublic: Startup service (pub.storage:startup) 
+2020-12-11 15:02:25 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.config:init) 
+2020-12-11 15:02:30 GMT [CLS.0010.0002I] WS-Stack repository located at /opt/softwareag/IntegrationServer/bin/../config/wss/ 
+2020-12-11 15:02:30 GMT [CLS.0010.0003I] WS-Stack configuration file located: /opt/softwareag/IntegrationServer/bin/../config/wss//axis2.xml 
+2020-12-11 15:02:30 GMT [CLS.0010.0175I] 
+ CloudStreams product is initialized. 
+ 
+2020-12-11 15:02:31 GMT [CLS.0010.0045I] CloudStreams Spring context loaded. 
+2020-12-11 15:02:32 GMT [CLS.0205.0021I] LifeCycleEventPublisher - startup method is called 
+2020-12-11 15:02:32 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (cloudstreams.UIConfig:initUI) 
+2020-12-11 15:02:32 GMT [ISS.0028.0012I] WmCloudStreams: Startup service (wm.cloudstreams.admin:startup) 
+2020-12-11 15:02:32 GMT [ISS.0028.0012I] WmXSLT: Startup service (wm.xslt.Admin:startup) 
+2020-12-11 15:02:32 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.mediatype:addSupport) 
+2020-12-11 15:02:32 GMT [ISS.0028.0012I] WmJSONAPI: Startup service (wm.jsonapi.logging:init) 
+2020-12-11 15:02:32 GMT [ISS.0028.0012I] WmISExtDC: Startup service (com.wm.isextdc.PkgInit:init) 
+2020-12-11 15:02:32 GMT [ISS.0028.0012I] WmCloudStreamsExt: Startup service (wm.cloudstreams.ext.admin:startup) 
+2020-12-11 15:02:32 GMT [ISS.0028.0012I] WmConsul: Startup service (wm.server.consul.util:init) 
+2020-12-11 15:02:32 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:createDefaultILiveTrustStoreAlias) 
+2020-12-11 15:02:32 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:loadTenantAccountInfo) 
+2020-12-11 15:02:32 GMT [ISS.0021.6005I] webMethods Cloud information was not loaded because the settings are not specified. 
+2020-12-11 15:02:32 GMT [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.connector:initConnectors) 
+2020-12-11 15:02:32 GMT [ISS.0028.0012I] WmAdmin: Startup service (wm.admin.controller:init) 
+2020-12-11 15:02:32 GMT [ISS.0028.0012I] WmART: Startup service (wm.art.admin:startup) 
+2020-12-11 15:02:32 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:init) 
+2020-12-11 15:02:32 GMT [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:setACLs) 
+2020-12-11 15:02:32 GMT [ISS.0028.0012I] WmARTExtDC: Startup service (com.wm.artextdc.pkginit:init) 
+2020-12-11 15:02:32 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 9999 
+2020-12-11 15:02:32 GMT [ISP.0046.0012I] Enabling HTTP Listener on port 5555 
+2020-12-11 15:02:32 GMT [ISS.0025.0013I] Cache Sweeper started 
+2020-12-11 15:02:32 GMT [ISS.0035.0003I] Log rotation interval set to 1440 minutes. 
+2020-12-11 15:02:32 GMT [ISS.0025.0057I] Reading system level information 
+2020-12-11 15:02:33 GMT [ISS.0014.0002I] Initialization completed in 55 seconds. 
+2020-12-11 15:02:33 GMT [ISS.0025.0016I] Config File Directory Saved 
+2020-12-11 15:02:34 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.RestVS to the SOAP Stack 
+2020-12-11 15:02:34 GMT [CLS.0050.0063I] Adding PGService:WmCloudStreams.SoapVS to the SOAP Stack 
+2020-12-11 15:02:34 GMT [CLS.0010.0020W] Consumer file [/opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/consumers.xml] could not be found! Could not load Consumer information into CloudStreams. 
+2020-12-11 15:02:34 GMT [CLS.0010.0320I] Read 0 registered consumer names from /opt/softwareag/IntegrationServer/packages/WmCloudStreams/config/resources/consumers/registeredNames.xml 
+2020-12-11 15:02:45 GMT [CLS.0203.0013W] No value defined in CCC cache for this key: currentInterval 
+2020-12-11 15:31:40 GMT [ISS.0014.0005I] Shutting down server. No valid license key was found. 
+2020-12-11 15:31:40 GMT [ISS.0070.0029I] Stopping listeners from accepting new requests. 
+2020-12-11 15:31:40 GMT [ISS.0028.0015I] WmARTExtDC: Shutdown service (com.wm.artextdc.pkginit:shutdown) 
+2020-12-11 15:31:40 GMT [ISS.0028.0015I] WmFlatFile: Shutdown service (wm.server.ff:shutdown) 
+2020-12-11 15:31:40 GMT [ISS.0028.0015I] WmART: Shutdown service (wm.art.admin:shutdown) 
+2020-12-11 15:31:40 GMT [ISS.0028.0015I] WmCloud: Shutdown service (wm.client.integrationlive.connector:releaseConnectors) 
+2020-12-11 15:31:40 GMT [ISS.0028.0015I] WmCloud: Shutdown service (wm.client.integrationlive.admin:deleteDefaultILiveTrustStoreAlias) 
+2020-12-11 15:31:40 GMT [ISS.0028.0015I] WmISExtDC: Shutdown service (com.wm.isextdc.PkgInit:shutdown) 
+2020-12-11 15:31:40 GMT [ISS.0028.0015I] WmJSONAPI: Shutdown service (wm.jsonapi.mediatype:removeSupport) 
+2020-12-11 15:31:40 GMT [ISS.0028.0015I] WmJSONAPI: Shutdown service (wm.jsonapi.logging:deRegister) 
+2020-12-11 15:31:40 GMT [ISS.0028.0015I] WmCloudStreams: Shutdown service (wm.cloudstreams.admin:shutdown) 
+2020-12-11 15:31:40 GMT [ISS.0028.0015I] WmCloudStreams: Shutdown service (cloudstreams.config:shutdown) 
+2020-12-11 15:31:41 GMT [CLS.0050.0106I] Undeployed Virtual Service WmCloudStreams.SoapVS successfully! 
+2020-12-11 15:31:41 GMT [CLS.0050.0106I] Undeployed Virtual Service WmCloudStreams.RestVS successfully! 
+2020-12-11 15:31:41 GMT [ISS.0028.0015I] WmPublic: Shutdown service (pub.storage:shutdown) 
+2020-12-11 15:31:41 GMT [ISS.0028.0015I] WmPublic: Shutdown service (pub.sync:shutdown) 
+2020-12-11 15:31:41 GMT [ISS.0028.0015I] WmPublic: Shutdown service (pub.client.sftp:shutdown) 
+2020-12-11 15:31:41 GMT [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.net.http:shutdown) 
+2020-12-11 15:31:41 GMT [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.net.ftp:shutdown) 
+2020-12-11 15:31:41 GMT [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.net.email:shutdown) 
+2020-12-11 15:31:41 GMT [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.net.websocket:shutdown) 
+2020-12-11 15:31:41 GMT [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.tx:shutdown) 
+2020-12-11 15:31:41 GMT [ISC.0063.0013I] Shutdown 
+2020-12-11 15:31:41 GMT [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.schedule:shutdown) 
+2020-12-11 15:31:41 GMT [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.remote:shutdown) 
+2020-12-11 15:31:41 GMT [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.registry:shutdown) 
+2020-12-11 15:31:41 GMT [ISC.0042.0004I] Peak BigMemory usage: 0M 
+2020-12-11 15:31:42 GMT [ISS.0134.0001I] JMS subsystem shutdown completed 
+2020-12-11 15:31:42 GMT [ISS.0173.0001I] Common Messaging subsystem shutdown completed 
+2020-12-11 15:31:49 GMT [SCC.0121.0103I] XA Recovery Store shutdown completed. 
+2020-12-11 15:31:49 GMT [ISP.0046.0011I] Disabling HTTP Listener on port 9999 
+2020-12-11 15:31:49 GMT [ISP.0046.0011I] Disabling HTTP Listener on port 5555 
+2020-12-11 15:31:50 GMT [ISS.0014.0006I] Server shutdown completed. 

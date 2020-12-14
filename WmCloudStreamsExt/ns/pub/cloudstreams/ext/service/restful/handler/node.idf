@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="encodeutf8">true</value>
+  <value name="shared">cHJpdmF0ZSBzdGF0aWMgU3RyaW5nIHZhbGlkYXRlQ29ubmVjdG9ySWQoSURhdGFNYXAgcGlwZWxp
+bmVNYXApCgkJdGhyb3dzIFZhbGlkYXRpb25FeGNlcHRpb24sIFNlcnZpY2VFeGNlcHRpb24gewoJ
+CQlTdHJpbmcgY29ubmVjdG9ySUQgPSBWYWxpZGF0aW9uc1V0aWwuZ2V0U3RyaW5nKHBpcGVsaW5l
+TWFwLCAiY29ubmVjdG9ySUQiKTsKCgkJCWlmICghQ2xvdWRTdHJlYW1zUHJvdmlkZXJNYW5hZ2Vy
+LmdldEluc3RhbmNlKCkuaXNWYWxpZENvbm5lY3Rvcihjb25uZWN0b3JJRCkpIHsKCQkJCXRocm93
+IG5ldyBTZXJ2aWNlRXhjZXB0aW9uKCJJbnZhbGlkIGNvbm5lY3RvciBJRCAiICsgY29ubmVjdG9y
+SUQpOwoJCQl9CgkJCXJldHVybiBjb25uZWN0b3JJRDsKCQl9</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>com.wm.util.ValidationException</value>
+    <value>com.wm.util.ValidationsUtil</value>
+    <value>com.softwareag.cloudstreams.ext.ConnectorExtension</value>
+    <value>com.softwareag.cloudstreams.ext.ConnectorExtensionRegistry</value>
+    <value>com.softwareag.cloudstreams.plm.CloudStreamsProviderManager</value>
+    <value>com.softwareag.util.IDataMap</value>
+  </array>
+</Values>

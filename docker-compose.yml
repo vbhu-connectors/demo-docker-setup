@@ -1,0 +1,20 @@
+# docker-compose.yml
+version: '2'
+volumes:
+  is-packages:
+  is-config:
+services:
+  wmcs105:
+    build: .
+    container_name: wmcs105
+    hostname: wmcs105
+    ports:
+      -  "13022:22"
+      -  "15555:5555"
+    mem_limit: 4096M
+    network_mode: "app"
+    volumes:
+      - is-packages:/opt/softwareag/IntegrationServer/packages
+      - ./logs:/opt/softwareag/IntegrationServer/logs
+      - ./inbound:/opt/softwareag/IntegrationServer/replicate/inbound
+      - ./licenseKey.xml:/opt/softwareag/IntegrationServer/config/licenseKey.xml

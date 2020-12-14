@@ -1,0 +1,3 @@
+2020-12-11 15:01:38 GMT [ISS.0028.9999I] Validating License file for Microservices
+2020-12-11 15:01:38 GMT [ISS.0028.0101C] License file /opt/softwareag/IntegrationServer/bin/../config/licenseKey.xml is not valid.
+2020-12-11 15:01:38 GMT [ISS.0028.0104C] Unable to perform configuration variables processing because license is not valid.
